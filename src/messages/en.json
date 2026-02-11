@@ -1,0 +1,16 @@
+{
+    "Navbar": {
+        "products": "Products",
+        "crops": "Crops",
+        "calculator": "Calculator",
+        "cart": "Cart"
+    },
+    "Home": {
+        "title": "Welcome to Agrodyke",
+        "description": "Your partner in sustainable agriculture"
+    },
+    "Calculator": {
+        "title": "Dosage Calculator",
+        "description": "Calculate the exact amount of Agrodyke products needed for your farm."
+    }
+}

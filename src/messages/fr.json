@@ -1,0 +1,16 @@
+{
+    "Navbar": {
+        "products": "Produits",
+        "crops": "Cultures",
+        "calculator": "Calculateur",
+        "cart": "Panier"
+    },
+    "Home": {
+        "title": "Bienvenue chez Agrodyke",
+        "description": "Votre partenaire pour une agriculture durable"
+    },
+    "Calculator": {
+        "title": "Calculateur de Dosage",
+        "description": "Calculez la quantité exacte de produits Agrodyke nécessaire pour votre exploitation."
+    }
+}
