@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Badge } from '@/components/ui/badge';
-import { FloppyDisk, Phone, ChatCircle, Globe, ShieldCheck, WarningCircle } from '@phosphor-icons/react';
+import { Disc, Phone, MessageCircle, Globe, ShieldCheck, FileWarning } from 'lucide-react';
 import { AGRODYKE_CONTACT } from '@/lib/constants';
 
 export default function AdminSettingsPage() {
@@ -38,7 +38,7 @@ export default function AdminSettingsPage() {
                 <Card>
                     <CardHeader>
                         <CardTitle className="flex items-center gap-2">
-                            <Phone size={20} weight="bold" className="text-primary" />
+                            <Phone size={20} className="text-primary" />
                             Contact Information
                         </CardTitle>
                         <CardDescription>
@@ -77,7 +77,7 @@ export default function AdminSettingsPage() {
                 <Card>
                     <CardHeader>
                         <CardTitle className="flex items-center gap-2">
-                            <ShieldCheck size={20} weight="bold" className="text-primary" />
+                            <ShieldCheck size={20}  className="text-primary" />
                             API & Security
                         </CardTitle>
                         <CardDescription>
@@ -108,7 +108,7 @@ export default function AdminSettingsPage() {
                         </div>
 
                         <div className="p-4 bg-amber-50 rounded-lg border border-amber-200 flex gap-3">
-                            <WarningCircle size={20} weight="fill" className="text-amber-600 shrink-0" />
+                            <FileWarning size={20} className="text-amber-600 shrink-0" />
                             <div>
                                 <p className="text-sm font-semibold text-amber-900">Environment Warning</p>
                                 <p className="text-xs text-amber-800">
@@ -125,7 +125,7 @@ export default function AdminSettingsPage() {
                     <Button variant="outline">Reset Defaults</Button>
                     <Button onClick={handleSave} disabled={saving}>
                         {saving ? "Saving Changes..." : "Save Settings"}
-                        {!saving && <FloppyDisk size={16} weight="bold" className="ml-2" />}
+                        {!saving && <Disc size={16} className="ml-2" />}
                     </Button>
                 </CardContent>
             </Card>

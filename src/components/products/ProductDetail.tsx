@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Label } from '@/components/ui/label';
-import { ShoppingCart, ArrowLeft, CheckCircle } from '@phosphor-icons/react';
+import { ShoppingCart, ArrowLeft, CheckCircle } from 'lucide-react';
 import { Link } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
 
@@ -34,7 +34,7 @@ export default function ProductDetail({ product }: { product: any }) {
     return (
         <div className="space-y-8">
             <Link href="/products" className="flex items-center text-muted-foreground hover:text-primary transition-colors">
-                <ArrowLeft size={16} weight="bold" className="mr-2 h-4 w-4" />
+                <ArrowLeft size={16}  className="mr-2 h-4 w-4" />
                 {t('backToProducts')}
             </Link>
 
@@ -92,12 +92,12 @@ export default function ProductDetail({ product }: { product: any }) {
                         >
                             {added ? (
                                 <>
-                                    <CheckCircle size={20} weight="fill" className="mr-2 h-5 w-5" />
+                                    <CheckCircle size={20} className="mr-2 h-5 w-5" />
                                     {t('addedToCart')}
                                 </>
                             ) : (
                                 <>
-                                    <ShoppingCart size={20} weight="bold" className="mr-2 h-5 w-5" />
+                                    <ShoppingCart size={20} className="mr-2 h-5 w-5" />
                                     {t('addToCart')}
                                 </>
                             )}

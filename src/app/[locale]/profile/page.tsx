@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/com
 import { Button } from '@/components/ui/button';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
-import { User, Envelope, Shield, CalendarBlank, ShoppingBag, SignOut, CaretRight, CircleNotch } from '@phosphor-icons/react';
+import { User, LetterText, Shield, Calendar, ShoppingBag, LogOut, ChevronRight, Circle } from 'lucide-react';
 import { Link } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
 import { supabase } from '@/lib/supabase';
@@ -23,7 +23,7 @@ export default function ProfilePage() {
     if (isLoading) {
         return (
             <div className="flex h-[60vh] items-center justify-center">
-                <CircleNotch size={32} className="h-8 w-8 animate-spin text-primary" />
+                <Circle size={32} className="h-8 w-8 animate-spin text-primary" />
             </div>
         );
     }
@@ -64,7 +64,7 @@ export default function ProfilePage() {
                     </CardHeader>
                     <CardContent className="space-y-4 pt-4">
                         <div className="flex items-center text-sm text-muted-foreground">
-                            <Envelope size={16} className="mr-2 h-4 w-4 shrink-0" />
+                            <LetterText size={16} className="mr-2 h-4 w-4 shrink-0" />
                             <span className="truncate">{user.email}</span>
                         </div>
                         <div className="flex items-center text-sm text-muted-foreground">
@@ -77,7 +77,7 @@ export default function ProfilePage() {
                                 className="w-full justify-start"
                                 onClick={handleLogout}
                             >
-                                <SignOut size={16} className="mr-2 h-4 w-4" />
+                                <LogOut size={16} className="mr-2 h-4 w-4" />
                                 {t('logout')}
                             </Button>
                         </div>
@@ -123,28 +123,28 @@ export default function ProfilePage() {
                             <Link href="/orders" className="flex items-center justify-between p-4 hover:bg-slate-50 transition-colors border-b last:border-0 group">
                                 <div className="flex items-center">
                                     <div className="p-2 bg-primary/10 rounded-lg mr-4">
-                                        <ShoppingBag size={20} weight="fill" className="h-5 w-5 text-primary" />
+                                        <ShoppingBag size={20} className="h-5 w-5 text-primary" />
                                     </div>
                                     <div>
                                         <p className="font-semibold">My Orders</p>
                                         <p className="text-sm text-muted-foreground">View your purchase history and status</p>
                                     </div>
                                 </div>
-                                <CaretRight size={20} className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
+                                <ChevronRight size={20} className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
                             </Link>
 
                             {user.role === 'admin' && (
                                 <Link href="/admin" className="flex items-center justify-between p-4 hover:bg-slate-50 transition-colors border-b last:border-0 group">
                                     <div className="flex items-center">
                                         <div className="p-2 bg-primary/10 rounded-lg mr-4">
-                                            <Shield size={20} weight="fill" className="h-5 w-5 text-primary" />
+                                            <Shield size={20} className="h-5 w-5 text-primary" />
                                         </div>
                                         <div>
                                             <p className="font-semibold">Admin Dashboard</p>
                                             <p className="text-sm text-muted-foreground">Manage platform data and analytics</p>
                                         </div>
                                     </div>
-                                    <CaretRight size={20} className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
+                                    <ChevronRight size={20} className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
                                 </Link>
                             )}
                         </CardContent>
