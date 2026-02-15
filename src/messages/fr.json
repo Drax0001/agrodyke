@@ -1,0 +1,352 @@
+{
+  "metadata": {
+    "title": "AGRODYKE — Engrais Organique 6-en-1 | Cameroun",
+    "description": "Augmentez vos rendements de 40% avec AGRODYKE, l'engrais organique multifonctionnel. Commandez en ligne via MTN MoMo ou Orange Money."
+  },
+  "nav": {
+    "home": "Accueil",
+    "product": "Produit",
+    "benefits": "Avantages",
+    "howToUse": "Mode d'emploi",
+    "about": "À propos",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "buyNow": "Commander"
+  },
+  "hero": {
+    "headline": "AGRODYKE — La Révolution Organique 6-en-1 Pour Votre Exploitation",
+    "subheadline": "Augmentez vos rendements de 40%. Réduisez vos coûts de 50%. 100% biologique. Zéro résidus chimiques.",
+    "ctaPrimary": "Commander",
+    "ctaSecondary": "En savoir plus",
+    "badge": "Recommandé par le MINADER"
+  },
+  "sixInOne": {
+    "soilFertilizer": "Engrais du Sol",
+    "cropProtection": "Protection des Cultures",
+    "microbeActivator": "Activateur de Microbes",
+    "soilSterilizer": "Stérilisateur de Sol",
+    "yieldBooster": "Amplificateur de Rendement",
+    "chemicalNeutralizer": "Neutralisateur Chimique"
+  },
+  "productOverview": {
+    "title": "Qu'est-ce que AGRODYKE ?",
+    "subtitle": "Un engrais organique multifonctionnel conçu pour la nutrition et la protection des cultures.",
+    "paragraph1": "AGRODYKE est un engrais organique multifonctionnel conçu pour restaurer la fertilité des sols tout en protégeant les cultures.",
+    "paragraph2": "C'est une combinaison unique six-en-un pour la nutrition et la protection des cultures, adaptée à toutes les cultures.",
+    "paragraph3": "AGRODYKE est une poudre blanche, lourde, inodore, non toxique et sûre pour les agriculteurs et l'environnement.",
+    "highlights": [
+      "Depuis 1998",
+      "Enreg. International: 02.01.2013.027",
+      "Marque: REG. R 489441",
+      "Recommandé par le MINADER",
+      "Représentant Exclusif CEMAC"
+    ],
+    "cta": "Voir la composition complète"
+  },
+  "benefits": {
+    "title": "Avantages Clés",
+    "subtitle": "Points forts du guide officiel AGRODYKE.",
+    "items": [
+      { "title": "Accélère la croissance des plantes", "description": "Développement végétatif plus rapide et plantes plus robustes." },
+      { "title": "Augmente la fertilité des sols", "description": "Restaure la santé du sol sans résidus chimiques." },
+      { "title": "50% de réduction des coûts", "description": "Réduisez les intrants tout en améliorant les rendements." },
+      { "title": "Résistance aux maladies", "description": "Renforce l'immunité et la résilience des cultures." },
+      { "title": "Utilisable sur toutes les cultures", "description": "Convient aux légumes, céréales, fruits et plantations." },
+      { "title": "60–70% d'engrais chimiques en moins", "description": "Diminue la dépendance aux intrants chimiques." },
+      { "title": "+40% de rendement", "description": "Résultats prouvés en démonstration." },
+      { "title": "Active les microbes du sol", "description": "Stimule l'activité microbienne bénéfique." },
+      { "title": "Répare les tissus végétaux", "description": "Aide les plantes à récupérer du stress." },
+      { "title": "Écologique", "description": "Sans résidus chimiques, compatible export." },
+      { "title": "Récolte de qualité export", "description": "Améliore la qualité et l'acceptation marché." },
+      { "title": "Facile à appliquer", "description": "Réduit la main-d'œuvre et simplifie le travail." }
+    ]
+  },
+  "howItWorks": {
+    "title": "Mode d'application",
+    "subtitle": "Guide général d'utilisation issu du manuel technique.",
+    "steps": [
+      { "title": "Étape A — Trempage des semences", "description": "20g AGRODYKE + 3L d'eau. Conserver 1–2 jours." },
+      { "title": "Étape B — Stérilisation du lit de semis", "description": "80g dans 15L d'eau. Pulvériser 3–7 jours avant semis." },
+      { "title": "Étape C — Stérilisation de transplantation", "description": "100g dans 15L d'eau. Pulvériser 3–7 jours avant plantation." },
+      { "title": "Étape D — Fertilisation directe / semis", "description": "1–2kg dans 50kg de substrat. Semer 10–15g par culture." },
+      { "title": "Étape E — Pulvérisation", "description": "40–100g dans 15L d'eau. Fréquences selon la culture." }
+    ],
+    "disclaimer": "AGRODYKE peut être mélangé avec tout intrant SAUF les herbicides. Attendre au moins 7 jours après un herbicide."
+  },
+  "cropGuide": {
+    "title": "Dosages par culture",
+    "subtitle": "Les détails du PDF seront ajoutés.",
+    "prePlanting": "Avant plantation",
+    "postPlanting": "Après plantation",
+    "spraying": "Pulvérisation",
+    "crops": [
+      { "id": "pepper", "label": "🌶️ Piment, Tomate, Gombo, Chou", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
+      { "id": "cucumber", "label": "🥒 Concombre, Épinard, Aubergine, Légumes", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
+      { "id": "potato", "label": "🥔 Pomme de terre, Carotte, Oignon", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
+      { "id": "peanut", "label": "🥜 Arachide, Soja", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
+      { "id": "watermelon", "label": "🍉 Pastèque, Ananas", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
+      { "id": "citrus", "label": "🍊 Pomme, Orange, Poire", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
+      { "id": "mango", "label": "🥭 Mangue, Durian, Carambole, Mangoustan", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
+      { "id": "corn", "label": "🌽 Maïs, Millet, Sorgho", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
+      { "id": "oil-palm", "label": "🌴 Palmier à huile", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
+      { "id": "cocoa", "label": "🍫 Cacao", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
+      { "id": "coffee", "label": "☕ Café", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
+      { "id": "plantain", "label": "🍌 Plantain, Banane, Manioc, Igname", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
+      { "id": "rubber", "label": "🌳 Hévéa", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
+      { "id": "tea", "label": "🍵 Thé", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
+      { "id": "cotton", "label": "🧶 Coton", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
+      { "id": "sugarcane", "label": "🎋 Canne à sucre & Bambou", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
+      { "id": "rice", "label": "🍚 Riz Paddy", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." }
+    ]
+  },
+  "composition": {
+    "title": "Composition biochimique",
+    "subtitle": "Valeurs résumées du guide technique.",
+    "safe": "Sûr",
+    "rows": [
+      { "label": "C-organique", "value": "18.12%" },
+      { "label": "Ratio C/N", "value": "24.16" },
+      { "label": "Azote", "value": "0.75%" },
+      { "label": "P₂O₅", "value": "2.65%" },
+      { "label": "K₂O", "value": "0.86%" },
+      { "label": "Fe", "value": "2694 ppm" },
+      { "label": "Mn", "value": "193 ppm" },
+      { "label": "B,Ha", "value": "129 ppm" },
+      { "label": "Cu", "value": "48 ppm" },
+      { "label": "Zn,Na", "value": "25 ppm" },
+      { "label": "Mo", "value": "3.7 ppm" },
+      { "label": "As", "value": "Non détecté" },
+      { "label": "Co", "value": "Non détecté" },
+      { "label": "Hg", "value": "Non détecté" },
+      { "label": "Cd", "value": "Non détecté" }
+    ],
+    "elementsTitle": "Éléments essentiels (extrait)",
+    "elements": [
+      { "name": "Azote (N)", "role": "Élément macro essentiel à la croissance." },
+      { "name": "Phosphore (P)", "role": "Favorise l'enracinement et la floraison." },
+      { "name": "Potassium (K)", "role": "Améliore la résistance et la régulation de l'eau." },
+      { "name": "Fer (Fe)", "role": "Indispensable à la chlorophylle." }
+    ]
+  },
+  "advantages": {
+    "title": "Avantages comparatifs",
+    "subtitle": "Impact mesuré par rapport aux pratiques classiques.",
+    "stats": [
+      { "value": 40, "suffix": "%+", "label": "Hausse des rendements" },
+      { "value": 50, "suffix": "%", "label": "Réduction des coûts" },
+      { "value": 60, "suffix": "%", "label": "Moins d'engrais chimiques" },
+      { "value": 20, "suffix": "+", "label": "Éléments essentiels" },
+      { "value": 0, "suffix": "", "label": "Résidus chimiques" },
+      { "value": 1998, "suffix": "", "label": "Depuis" }
+    ],
+    "beforeAfterPlaceholder": "Le slider avant/après sera ajouté dès réception des images."
+  },
+  "testimonials": {
+    "title": "Témoignages & Résultats",
+    "subtitle": "Preuves sociales issues des démonstrations AGRODYKE.",
+    "items": [
+      { "title": "UNVDA Ndop Riz (2017/2018)", "description": "Rendement passé de 4mt à 10mt/hectare." },
+      { "title": "Plantation de Thé NDAWARA (Juillet 2018)", "description": "Plantes plus saines et productivité accrue." },
+      { "title": "Domaine Hévéa Chief Mukete (2017)", "description": "Récupération du sol et vigueur des plants." }
+    ],
+    "carouselNote": "Le carrousel automatique sera activé dès réception des médias."
+  },
+  "pricing": {
+    "title": "Tarifs & Formats",
+    "subtitle": "Choisissez votre format et la quantité.",
+    "addToOrder": "Ajouter à la commande",
+    "proceed": "Passer à la caisse",
+    "quantity": "Quantité",
+    "bestValue": "Meilleur Rapport",
+    "itemsInCart": "articles dans le panier",
+    "whatsappCTA": "💬 Discuter sur WhatsApp avant de commander",
+    "whatsappLink": "https://wa.me/237675405348?text=Bonjour%21%20Je%20suis%20int%C3%A9ress%C3%A9%28e%29%20par%20AGRODYKE."
+  },
+  "products": {
+    "agrodyke-250g": {
+      "name": "AGRODYKE 250 g",
+      "description": "Idéal pour petits jardins et pépinières."
+    },
+    "agrodyke-500g": {
+      "name": "AGRODYKE 500 g",
+      "description": "Format équilibré pour cultures mixtes."
+    },
+    "agrodyke-1kg": {
+      "name": "AGRODYKE 1 Kg",
+      "description": "Idéal pour agriculteurs sérieux et grandes parcelles."
+    }
+  },
+  "regions": {
+    "adamaoua": "Adamaoua",
+    "centre": "Centre",
+    "east": "Est",
+    "farNorth": "Extrême-Nord",
+    "littoral": "Littoral",
+    "north": "Nord",
+    "northWest": "Nord-Ouest",
+    "south": "Sud",
+    "southWest": "Sud-Ouest",
+    "west": "Ouest"
+  },
+  "about": {
+    "title": "Notre Histoire",
+    "subtitle": "Les personnes et la mission derrière AGRODYKE au Cameroun.",
+    "founder": "Dehlah Jerry — Responsable Opérations & Ventes",
+    "story": [
+      "Il a découvert AGRODYKE et identifié son immense potentiel pour l'agriculture africaine.",
+      "Après avoir constaté les dégâts des engrais chimiques sur les sols camerounais, il est devenu le représentant exclusif CEMAC.",
+      "Avec SONEDIS Sarl / SODEPAD Sarl à Douala, il a conduit des démonstrations des rizières de Ndop aux plantations majeures.",
+      "Notre mission : chaque agriculteur mérite une technologie qui protège la récolte et la terre."
+    ],
+    "milestones": [
+      "1998 — Lancement d'AGRODYKE",
+      "2017 — Premier essai hévéa au Cameroun",
+      "2018 — Démonstration en plantation de thé",
+      "2020 — Publication du guide technique"
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Contactez SONEDIS/SODEPAD pour commandes ou informations.",
+    "phonesLabel": "Téléphone / WhatsApp",
+    "phones": "+237 675 40 53 48 / +237 695 38 36 64",
+    "phoneItems": ["+237 675 40 53 48", "+237 695 38 36 64"],
+    "emailsLabel": "Email",
+    "emails": "globalbusinessincorp@yahoo.com, jerrydehlah@gmail.com",
+    "emailItems": ["globalbusinessincorp@yahoo.com", "jerrydehlah@gmail.com"],
+    "websiteLabel": "Site web",
+    "website": "www.sonediscm.com",
+    "addressLabel": "Adresse",
+    "address": "B.P. 698, Akwa, Douala, Cameroun",
+    "form": {
+      "name": "Nom complet",
+      "phone": "Téléphone",
+      "email": "Email (optionnel)",
+      "message": "Votre message",
+      "submit": "Envoyer",
+      "languageLabel": "Langue préférée",
+      "languageFR": "Français",
+      "languageEN": "Anglais"
+    }
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "subtitle": "Réponses rapides sur AGRODYKE.",
+    "items": [
+      { "id": "faq-1", "question": "Qu'est-ce que AGRODYKE ?", "answer": "Un engrais organique 6-en-1 pour nourrir et protéger les cultures." },
+      { "id": "faq-2", "question": "AGRODYKE est-il sans danger ?", "answer": "Oui. Il est non toxique et sans résidus chimiques." },
+      { "id": "faq-3", "question": "Puis-je utiliser AGRODYKE sur toute culture ?", "answer": "Oui, il est conçu pour toutes les cultures." },
+      { "id": "faq-4", "question": "Quelle dose par hectare ?", "answer": "La dose dépend de la culture et du mode d'application." },
+      { "id": "faq-5", "question": "Puis-je mélanger avec des engrais chimiques ?", "answer": "Oui, et cela réduit les besoins de 60–70%." },
+      { "id": "faq-6", "question": "Puis-je utiliser avec des herbicides ?", "answer": "Non. Attendre au moins 7 jours après herbicide." },
+      { "id": "faq-7", "question": "Où est fabriqué AGRODYKE ?", "answer": "AGRODYKE est enregistré internationalement et distribué par SONEDIS." },
+      { "id": "faq-8", "question": "Comment payer ?", "answer": "Paiement via MTN Mobile Money, Orange Money ou WhatsApp." },
+      { "id": "faq-9", "question": "Livrez-vous ?", "answer": "Oui. Les détails sont confirmés à la commande." },
+      { "id": "faq-10", "question": "Comment vous contacter ?", "answer": "Utilisez les contacts du site (téléphone, WhatsApp, email)." }
+    ]
+  },
+  "footer": {
+    "tagline": "Technologie organique pour des sols sains et de meilleurs rendements.",
+    "quickLinks": "Liens rapides",
+    "contact": "Contact",
+    "legal": "© 2025 SONEDIS Sarl. Tous droits réservés. Enreg. International: 02.01.2013.027 | REG. R 489441 | Recommandé par le MINADER"
+  },
+  "whatsapp": {
+    "float": "Discuter avec nous",
+    "inquiryLink": "https://wa.me/237675405348?text=Bonjour%21%20Je%20suis%20int%C3%A9ress%C3%A9%28e%29%20par%20AGRODYKE."
+  },
+  "checkout": {
+    "title": "Caisse",
+    "summaryTitle": "Récapitulatif",
+    "empty": "Votre panier est vide. Ajoutez un produit pour continuer.",
+    "subtotal": "Sous-total",
+    "delivery": "Livraison",
+    "total": "Total",
+    "backToStore": "Retour à la boutique",
+    "remove": "Supprimer",
+    "removeConfirm": "Supprimer cet article du panier ?",
+    "step1": "Informations Client",
+    "step2": "Informations de Livraison",
+    "step3": "Paiement",
+    "placeholders": {
+      "region": "Région",
+      "city": "Ville",
+      "neighborhood": "Quartier",
+      "address": "Adresse / Repère"
+    },
+    "customer": {
+      "fullName": "Nom complet",
+      "phone": "Téléphone",
+      "email": "Email (optionnel)",
+      "language": "Langue préférée",
+      "languageFR": "Français",
+      "languageEN": "Anglais"
+    },
+    "delivery": {
+      "region": "Région",
+      "regionPlaceholder": "Sélectionnez une région",
+      "city": "Ville",
+      "neighborhood": "Quartier",
+      "address": "Adresse / Repère",
+      "notes": "Notes de livraison (optionnel)",
+      "notesPlaceholder": "Informations complémentaires",
+      "method": "Mode de livraison",
+      "methodDelivery": "🚚 Livraison standard",
+      "methodPickup": "🏪 Retrait à Douala"
+    },
+    "payment": {
+      "mtn": "MTN Mobile Money",
+      "orange": "Orange Money",
+      "whatsapp": "WhatsApp & Paiement plus tard",
+      "mtnHint": "Payer via MTN",
+      "orangeHint": "Payer via Orange",
+      "whatsappHint": "Discuter pour payer",
+      "receiverLabel": "Numéro de paiement",
+      "mtnNumber": "+237 673 046 720",
+      "orangeNumber": "+237 691 065 388",
+      "phoneToDebit": "Téléphone à débiter",
+      "trust": "🔒 Paiement sécurisé via CamPay",
+      "payCTA": "Payer",
+      "whatsappCTA": "Ouvrir WhatsApp"
+    },
+    "processing": {
+      "title": "En attente de confirmation",
+      "subtitle": "Veuillez vérifier votre téléphone et confirmer le paiement.",
+      "reference": "Référence de transaction",
+      "countdown": "Temps restant",
+      "cancel": "Annuler"
+    },
+    "success": {
+      "title": "Paiement réussi",
+      "message": "Votre commande a été confirmée.",
+      "reference": "Référence de commande",
+      "total": "Total payé",
+      "return": "Retour à l'accueil"
+    },
+    "error": {
+      "title": "Paiement échoué",
+      "message": "Le paiement n'a pas été complété. Veuillez réessayer.",
+      "retry": "Réessayer",
+      "whatsapp": "Nous contacter sur WhatsApp"
+    },
+    "whatsapp": {
+      "title": "Commande WhatsApp lancée",
+      "message": "Vous serez redirigé vers WhatsApp pour finaliser votre commande.",
+      "return": "Retour à l'accueil"
+    },
+    "actions": {
+      "continueToDelivery": "Continuer vers la Livraison",
+      "continueToPayment": "Continuer vers le Paiement",
+      "backToCustomer": "← Retour aux infos client",
+      "backToDelivery": "← Retour à la livraison"
+    },
+    "promo": {
+      "toggle": "Vous avez un code ?",
+      "placeholder": "Saisir le code promo"
+    }
+  },
+  "common": {
+    "currency": "XAF",
+    "skipToContent": "Aller au contenu principal"
+  }
+}

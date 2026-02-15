@@ -1,0 +1,352 @@
+{
+  "metadata": {
+    "title": "AGRODYKE — 6-in-1 Organic Fertilizer | Cameroon",
+    "description": "Boost your farm yields by 40% with AGRODYKE, the multipurpose organic fertilizer. Order online via MTN MoMo or Orange Money."
+  },
+  "nav": {
+    "home": "Home",
+    "product": "Product",
+    "benefits": "Benefits",
+    "howToUse": "How to Use",
+    "about": "About",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "buyNow": "Buy Now"
+  },
+  "hero": {
+    "headline": "AGRODYKE — The 6-in-1 Organic Revolution for Your Farm",
+    "subheadline": "Boost yields by 40%. Cut costs by 50%. 100% organic. Zero chemical residues.",
+    "ctaPrimary": "Order Now",
+    "ctaSecondary": "Learn More",
+    "badge": "MINADER Recommended"
+  },
+  "sixInOne": {
+    "soilFertilizer": "Soil Fertilizer",
+    "cropProtection": "Crop Protection",
+    "microbeActivator": "Microbe Activator",
+    "soilSterilizer": "Soil Sterilizer",
+    "yieldBooster": "Yield Booster",
+    "chemicalNeutralizer": "Chemical Neutralizer"
+  },
+  "productOverview": {
+    "title": "What is AGRODYKE?",
+    "subtitle": "A multifunctional organic fertilizer designed for crop nutrition and protection.",
+    "paragraph1": "AGRODYKE is a multifunctional organic fertilizer developed to restore soil fertility while protecting crops.",
+    "paragraph2": "It is a unique six-in-one combination for crop nutrition and crop protection, suitable for all crops.",
+    "paragraph3": "AGRODYKE is a white heavy powder, odorless, non-toxic, and safe for farmers and the environment.",
+    "highlights": [
+      "Since 1998",
+      "International Reg: 02.01.2013.027",
+      "Brand: REG. R 489441",
+      "MINADER Recommended",
+      "CEMAC Exclusive Representative"
+    ],
+    "cta": "See Full Composition"
+  },
+  "benefits": {
+    "title": "Key Benefits",
+    "subtitle": "Highlights from the official AGRODYKE guide.",
+    "items": [
+      { "title": "Accelerates Plant Growth", "description": "Faster vegetative development and stronger plants." },
+      { "title": "Increases Soil Fertility Naturally", "description": "Rebuilds soil health without chemical residues." },
+      { "title": "50% Production Cost Reduction", "description": "Reduce overall input costs while improving yields." },
+      { "title": "Pest & Disease Resistance", "description": "Strengthens plant immunity and resilience." },
+      { "title": "Works on All Crops", "description": "Suitable for vegetables, cereals, fruit, and plantations." },
+      { "title": "60–70% Less Chemical Fertilizer", "description": "Decrease dependence on chemical inputs." },
+      { "title": "40%+ Yield Increase", "description": "Proven results in field demonstrations." },
+      { "title": "Activates Soil Microbes", "description": "Boosts beneficial microbial activity." },
+      { "title": "Repairs Plant Tissues", "description": "Supports recovery from stress and damage." },
+      { "title": "Eco-Friendly", "description": "No chemical residues; safe for export crops." },
+      { "title": "Export-Quality Harvest", "description": "Improves quality and market acceptance." },
+      { "title": "Easy to Apply", "description": "Saves labor and simplifies farm operations." }
+    ]
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "General application guide from the technical manual.",
+    "steps": [
+      { "title": "Step A — Soaking of Seeds", "description": "20g AGRODYKE + 3L water. Store for 1–2 days before planting." },
+      { "title": "Step B — Seed Bed Sterilization", "description": "80g in 15L water. Spray 3–7 days before sowing." },
+      { "title": "Step C — Transplantation Sterilization", "description": "100g in 15L water. Spray 3–7 days before planting." },
+      { "title": "Step D — Direct Fertilization / Sowing", "description": "1–2kg in 50kg media. Sow 10–15g per crop." },
+      { "title": "Step E — Spraying", "description": "40–100g in 15L water. Intervals vary by crop." }
+    ],
+    "disclaimer": "AGRODYKE can be mixed with any input EXCEPT herbicides. Wait at least 7 days after herbicide application."
+  },
+  "cropGuide": {
+    "title": "Crop-Specific Usage",
+    "subtitle": "Dosage guide (details from the PDF will be inserted).",
+    "prePlanting": "Pre-Planting",
+    "postPlanting": "Post-Planting",
+    "spraying": "Spraying",
+    "crops": [
+      { "id": "pepper", "label": "🌶️ Pepper, Tomato, Okra, Cabbage", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
+      { "id": "cucumber", "label": "🥒 Cucumber, Spinach, Garden Eggs, Vegetables", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
+      { "id": "potato", "label": "🥔 Irish Potatoes, Carrots, Onions", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
+      { "id": "peanut", "label": "🥜 Peanut, Groundnuts, Soya Beans", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
+      { "id": "watermelon", "label": "🍉 Watermelon, Pineapple", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
+      { "id": "citrus", "label": "🍊 Apple, Orange, Pearls", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
+      { "id": "mango", "label": "🥭 Mango, Durian, Star Fruits, Mangoustans", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
+      { "id": "corn", "label": "🌽 Corn (Maize), Millet, Sorghum", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
+      { "id": "oil-palm", "label": "🌴 Oil Palms", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
+      { "id": "cocoa", "label": "🍫 Cocoa Plantation", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
+      { "id": "coffee", "label": "☕ Coffee Plantation", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
+      { "id": "plantain", "label": "🍌 Plantain, Banana, Cassava, Yams", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
+      { "id": "rubber", "label": "🌳 Rubber Trees", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
+      { "id": "tea", "label": "🍵 Tea Plantation", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
+      { "id": "cotton", "label": "🧶 Cotton Plantation", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
+      { "id": "sugarcane", "label": "🎋 Sugar Cane & Bamboos", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
+      { "id": "rice", "label": "🍚 Paddy Rice", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." }
+    ]
+  },
+  "composition": {
+    "title": "Biochemical Composition",
+    "subtitle": "Summary values from the technical guide.",
+    "safe": "Safe",
+    "rows": [
+      { "label": "C-organic", "value": "18.12%" },
+      { "label": "C/N Ratio", "value": "24.16" },
+      { "label": "Nitrogen", "value": "0.75%" },
+      { "label": "P₂O₅", "value": "2.65%" },
+      { "label": "K₂O", "value": "0.86%" },
+      { "label": "Fe", "value": "2694 ppm" },
+      { "label": "Mn", "value": "193 ppm" },
+      { "label": "B,Ha", "value": "129 ppm" },
+      { "label": "Cu", "value": "48 ppm" },
+      { "label": "Zn,Na", "value": "25 ppm" },
+      { "label": "Mo", "value": "3.7 ppm" },
+      { "label": "As", "value": "Not detected" },
+      { "label": "Co", "value": "Not detected" },
+      { "label": "Hg", "value": "Not detected" },
+      { "label": "Cd", "value": "Not detected" }
+    ],
+    "elementsTitle": "Essential Elements (Sample)",
+    "elements": [
+      { "name": "Nitrogen (N)", "role": "Essential macro element for plant growth." },
+      { "name": "Phosphorus (P)", "role": "Supports root development and flowering." },
+      { "name": "Potassium (K)", "role": "Improves water regulation and resilience." },
+      { "name": "Iron (Fe)", "role": "Vital for chlorophyll formation." }
+    ]
+  },
+  "advantages": {
+    "title": "Comparative Advantages",
+    "subtitle": "Measured impact versus conventional practices.",
+    "stats": [
+      { "value": 40, "suffix": "%+", "label": "Yield increase" },
+      { "value": 50, "suffix": "%", "label": "Cost reduction" },
+      { "value": 60, "suffix": "%", "label": "Less chemical fertilizer needed" },
+      { "value": 20, "suffix": "+", "label": "Essential elements" },
+      { "value": 0, "suffix": "", "label": "Chemical residues" },
+      { "value": 1998, "suffix": "", "label": "Trusted since" }
+    ],
+    "beforeAfterPlaceholder": "Before/after results slider will appear here once crop images are available."
+  },
+  "testimonials": {
+    "title": "Testimonials & Field Results",
+    "subtitle": "Social proof from AGRODYKE field demonstrations.",
+    "items": [
+      { "title": "UNVDA Ndop Rice (2017/2018)", "description": "Yield improved from 4mt to 10mt/hectare." },
+      { "title": "NDAWARA Tea Estate (July 2018)", "description": "Field trials showed healthier plants and higher productivity." },
+      { "title": "Chief Mukete Rubber Estate (2017)", "description": "Visible soil recovery and plant vigor after application." }
+    ],
+    "carouselNote": "Carousel autoplay and swipe interactions will be enabled once media assets are ready."
+  },
+  "pricing": {
+    "title": "Pricing & Product Variants",
+    "subtitle": "Select your preferred package size and quantity.",
+    "addToOrder": "Add to Order",
+    "proceed": "Proceed to Checkout",
+    "quantity": "Quantity",
+    "bestValue": "Best Value",
+    "itemsInCart": "items in cart",
+    "whatsappCTA": "💬 Chat on WhatsApp Before Ordering",
+    "whatsappLink": "https://wa.me/237675405348?text=Hello%21%20I%27m%20interested%20in%20AGRODYKE%20organic%20fertilizer."
+  },
+  "products": {
+    "agrodyke-250g": {
+      "name": "AGRODYKE 250 g",
+      "description": "Ideal for small gardens and seedbeds."
+    },
+    "agrodyke-500g": {
+      "name": "AGRODYKE 500 g",
+      "description": "Balanced size for mixed crops."
+    },
+    "agrodyke-1kg": {
+      "name": "AGRODYKE 1 Kg",
+      "description": "Best for serious farmers and larger plots."
+    }
+  },
+  "regions": {
+    "adamaoua": "Adamaoua",
+    "centre": "Centre",
+    "east": "East",
+    "farNorth": "Far North",
+    "littoral": "Littoral",
+    "north": "North",
+    "northWest": "North-West",
+    "south": "South",
+    "southWest": "South-West",
+    "west": "West"
+  },
+  "about": {
+    "title": "Our Story",
+    "subtitle": "The people and mission behind AGRODYKE in Cameroon.",
+    "founder": "Dehlah Jerry — Operations & Sales Manager",
+    "story": [
+      "He discovered AGRODYKE and recognized its immense potential for African agriculture.",
+      "After seeing the damage caused by chemical fertilizers to Cameroonian soils, he became the CEMAC Exclusive Representative.",
+      "Through SONEDIS Sarl / SODEPAD Sarl in Douala, he led demonstrations from Ndop rice paddies to Bamenda farms and major plantations.",
+      "Our mission: every farmer deserves access to technology that protects both their harvest and the earth."
+    ],
+    "milestones": [
+      "1998 — AGRODYKE launches globally",
+      "2017 — First rubber estate trial in Cameroon",
+      "2018 — Tea estate demonstration",
+      "2020 — Technical guide published"
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Reach SONEDIS/SODEPAD for orders or inquiries.",
+    "phonesLabel": "Phone / WhatsApp",
+    "phones": "+237 675 40 53 48 / +237 695 38 36 64",
+    "phoneItems": ["+237 675 40 53 48", "+237 695 38 36 64"],
+    "emailsLabel": "Email",
+    "emails": "globalbusinessincorp@yahoo.com, jerrydehlah@gmail.com",
+    "emailItems": ["globalbusinessincorp@yahoo.com", "jerrydehlah@gmail.com"],
+    "websiteLabel": "Website",
+    "website": "www.sonediscm.com",
+    "addressLabel": "Address",
+    "address": "P.O. Box 698, Akwa, Douala, Cameroon",
+    "form": {
+      "name": "Full Name",
+      "phone": "Phone Number",
+      "email": "Email (optional)",
+      "message": "Your message",
+      "submit": "Send Message",
+      "languageLabel": "Preferred language",
+      "languageFR": "French",
+      "languageEN": "English"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Quick answers about AGRODYKE.",
+    "items": [
+      { "id": "faq-1", "question": "What is AGRODYKE?", "answer": "A six-in-one organic fertilizer that nourishes and protects crops." },
+      { "id": "faq-2", "question": "Is AGRODYKE safe for humans and animals?", "answer": "Yes. It is non-toxic and leaves no chemical residues." },
+      { "id": "faq-3", "question": "Can I use AGRODYKE on any crop?", "answer": "Yes. It is designed for all crops and farming systems." },
+      { "id": "faq-4", "question": "How much AGRODYKE do I need per hectare?", "answer": "Dosage depends on crop type and application method." },
+      { "id": "faq-5", "question": "Can I mix AGRODYKE with chemical fertilizers?", "answer": "Yes, and it can reduce chemical fertilizer needs by 60–70%." },
+      { "id": "faq-6", "question": "Can I use AGRODYKE with herbicides?", "answer": "No. Wait at least 7 days after herbicide application." },
+      { "id": "faq-7", "question": "Where is AGRODYKE manufactured?", "answer": "AGRODYKE is internationally registered and distributed in CEMAC by SONEDIS." },
+      { "id": "faq-8", "question": "How do I pay?", "answer": "Payments are made via MTN Mobile Money, Orange Money, or WhatsApp." },
+      { "id": "faq-9", "question": "Do you deliver?", "answer": "Yes. Delivery details are confirmed during checkout." },
+      { "id": "faq-10", "question": "How do I contact you?", "answer": "Use the phone numbers, WhatsApp, or email listed in the contact section." }
+    ]
+  },
+  "footer": {
+    "tagline": "Organic technology for healthier soils and higher yields.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "legal": "© 2025 SONEDIS Sarl. All rights reserved. International Registration: 02.01.2013.027 | REG. R 489441 | MINADER Recommended"
+  },
+  "whatsapp": {
+    "float": "Chat with us",
+    "inquiryLink": "https://wa.me/237675405348?text=Hello%21%20I%27m%20interested%20in%20AGRODYKE%20organic%20fertilizer."
+  },
+  "checkout": {
+    "title": "Checkout",
+    "summaryTitle": "Order Summary",
+    "empty": "Your cart is empty. Add a product to continue.",
+    "subtotal": "Subtotal",
+    "delivery": "Delivery",
+    "total": "Total",
+    "backToStore": "Back to Store",
+    "remove": "Remove",
+    "removeConfirm": "Remove this item from your order?",
+    "step1": "Customer Information",
+    "step2": "Delivery Information",
+    "step3": "Payment",
+    "placeholders": {
+      "region": "Region",
+      "city": "City",
+      "neighborhood": "Neighborhood",
+      "address": "Address / Landmark"
+    },
+    "customer": {
+      "fullName": "Full Name",
+      "phone": "Phone Number",
+      "email": "Email (optional)",
+      "language": "Preferred language",
+      "languageFR": "French",
+      "languageEN": "English"
+    },
+    "delivery": {
+      "region": "Region",
+      "regionPlaceholder": "Select a region",
+      "city": "City / Town",
+      "neighborhood": "Neighborhood",
+      "address": "Delivery Address / Landmark",
+      "notes": "Delivery Notes (optional)",
+      "notesPlaceholder": "Additional delivery details",
+      "method": "Delivery Method",
+      "methodDelivery": "🚚 Standard Delivery",
+      "methodPickup": "🏪 Pickup in Douala"
+    },
+    "payment": {
+      "mtn": "MTN Mobile Money",
+      "orange": "Orange Money",
+      "whatsapp": "WhatsApp Chat & Pay Later",
+      "mtnHint": "Pay via MTN",
+      "orangeHint": "Pay via Orange",
+      "whatsappHint": "Chat to pay",
+      "receiverLabel": "Payment receiver",
+      "mtnNumber": "+237 673 046 720",
+      "orangeNumber": "+237 691 065 388",
+      "phoneToDebit": "Phone number to debit",
+      "trust": "🔒 Secure Payment via CamPay",
+      "payCTA": "Pay",
+      "whatsappCTA": "Open WhatsApp"
+    },
+    "processing": {
+      "title": "Waiting for payment confirmation",
+      "subtitle": "Please check your phone and confirm the payment.",
+      "reference": "Transaction reference",
+      "countdown": "Time remaining",
+      "cancel": "Cancel"
+    },
+    "success": {
+      "title": "Payment successful",
+      "message": "Your order has been confirmed.",
+      "reference": "Order reference",
+      "total": "Total paid",
+      "return": "Return to Home"
+    },
+    "error": {
+      "title": "Payment failed",
+      "message": "Payment was not completed. Please try again.",
+      "retry": "Try Again",
+      "whatsapp": "Contact us on WhatsApp"
+    },
+    "whatsapp": {
+      "title": "WhatsApp order started",
+      "message": "You will be redirected to WhatsApp to complete your order via chat.",
+      "return": "Return to Home"
+    },
+    "actions": {
+      "continueToDelivery": "Continue to Delivery",
+      "continueToPayment": "Continue to Payment",
+      "backToCustomer": "← Back to Customer Info",
+      "backToDelivery": "← Back to Delivery"
+    },
+    "promo": {
+      "toggle": "Have a code?",
+      "placeholder": "Enter promo code"
+    }
+  },
+  "common": {
+    "currency": "XAF",
+    "skipToContent": "Skip to main content"
+  }
+}
