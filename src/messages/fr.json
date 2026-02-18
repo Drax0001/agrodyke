@@ -47,29 +47,80 @@
     "title": "Avantages Clés",
     "subtitle": "Points forts du guide officiel AGRODYKE.",
     "items": [
-      { "title": "Accélère la croissance des plantes", "description": "Développement végétatif plus rapide et plantes plus robustes." },
-      { "title": "Augmente la fertilité des sols", "description": "Restaure la santé du sol sans résidus chimiques." },
-      { "title": "50% de réduction des coûts", "description": "Réduisez les intrants tout en améliorant les rendements." },
-      { "title": "Résistance aux maladies", "description": "Renforce l'immunité et la résilience des cultures." },
-      { "title": "Utilisable sur toutes les cultures", "description": "Convient aux légumes, céréales, fruits et plantations." },
-      { "title": "60–70% d'engrais chimiques en moins", "description": "Diminue la dépendance aux intrants chimiques." },
-      { "title": "+40% de rendement", "description": "Résultats prouvés en démonstration." },
-      { "title": "Active les microbes du sol", "description": "Stimule l'activité microbienne bénéfique." },
-      { "title": "Répare les tissus végétaux", "description": "Aide les plantes à récupérer du stress." },
-      { "title": "Écologique", "description": "Sans résidus chimiques, compatible export." },
-      { "title": "Récolte de qualité export", "description": "Améliore la qualité et l'acceptation marché." },
-      { "title": "Facile à appliquer", "description": "Réduit la main-d'œuvre et simplifie le travail." }
+      {
+        "title": "Accélère la croissance des plantes",
+        "description": "Développement végétatif plus rapide et plantes plus robustes."
+      },
+      {
+        "title": "Augmente la fertilité des sols",
+        "description": "Restaure la santé du sol sans résidus chimiques."
+      },
+      {
+        "title": "50% de réduction des coûts",
+        "description": "Réduisez les intrants tout en améliorant les rendements."
+      },
+      {
+        "title": "Résistance aux maladies",
+        "description": "Renforce l'immunité et la résilience des cultures."
+      },
+      {
+        "title": "Utilisable sur toutes les cultures",
+        "description": "Convient aux légumes, céréales, fruits et plantations."
+      },
+      {
+        "title": "60–70% d'engrais chimiques en moins",
+        "description": "Diminue la dépendance aux intrants chimiques."
+      },
+      {
+        "title": "+40% de rendement",
+        "description": "Résultats prouvés en démonstration."
+      },
+      {
+        "title": "Active les microbes du sol",
+        "description": "Stimule l'activité microbienne bénéfique."
+      },
+      {
+        "title": "Répare les tissus végétaux",
+        "description": "Aide les plantes à récupérer du stress."
+      },
+      {
+        "title": "Écologique",
+        "description": "Sans résidus chimiques, compatible export."
+      },
+      {
+        "title": "Récolte de qualité export",
+        "description": "Améliore la qualité et l'acceptation marché."
+      },
+      {
+        "title": "Facile à appliquer",
+        "description": "Réduit la main-d'œuvre et simplifie le travail."
+      }
     ]
   },
   "howItWorks": {
     "title": "Mode d'application",
     "subtitle": "Guide général d'utilisation issu du manuel technique.",
     "steps": [
-      { "title": "Étape A — Trempage des semences", "description": "20g AGRODYKE + 3L d'eau. Conserver 1–2 jours." },
-      { "title": "Étape B — Stérilisation du lit de semis", "description": "80g dans 15L d'eau. Pulvériser 3–7 jours avant semis." },
-      { "title": "Étape C — Stérilisation de transplantation", "description": "100g dans 15L d'eau. Pulvériser 3–7 jours avant plantation." },
-      { "title": "Étape D — Fertilisation directe / semis", "description": "1–2kg dans 50kg de substrat. Semer 10–15g par culture." },
-      { "title": "Étape E — Pulvérisation", "description": "40–100g dans 15L d'eau. Fréquences selon la culture." }
+      {
+        "title": "Étape A — Trempage des semences",
+        "description": "20g AGRODYKE + 3L d'eau. Conserver 1–2 jours."
+      },
+      {
+        "title": "Étape B — Stérilisation du lit de semis",
+        "description": "80g dans 15L d'eau. Pulvériser 3–7 jours avant semis."
+      },
+      {
+        "title": "Étape C — Stérilisation de transplantation",
+        "description": "100g dans 15L d'eau. Pulvériser 3–7 jours avant plantation."
+      },
+      {
+        "title": "Étape D — Fertilisation directe / semis",
+        "description": "1–2kg dans 50kg de substrat. Semer 10–15g par culture."
+      },
+      {
+        "title": "Étape E — Pulvérisation",
+        "description": "40–100g dans 15L d'eau. Fréquences selon la culture."
+      }
     ],
     "disclaimer": "AGRODYKE peut être mélangé avec tout intrant SAUF les herbicides. Attendre au moins 7 jours après un herbicide."
   },
@@ -80,23 +131,125 @@
     "postPlanting": "Après plantation",
     "spraying": "Pulvérisation",
     "crops": [
-      { "id": "pepper", "label": "🌶️ Piment, Tomate, Gombo, Chou", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
-      { "id": "cucumber", "label": "🥒 Concombre, Épinard, Aubergine, Légumes", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
-      { "id": "potato", "label": "🥔 Pomme de terre, Carotte, Oignon", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
-      { "id": "peanut", "label": "🥜 Arachide, Soja", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
-      { "id": "watermelon", "label": "🍉 Pastèque, Ananas", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
-      { "id": "citrus", "label": "🍊 Pomme, Orange, Poire", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
-      { "id": "mango", "label": "🥭 Mangue, Durian, Carambole, Mangoustan", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
-      { "id": "corn", "label": "🌽 Maïs, Millet, Sorgho", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
-      { "id": "oil-palm", "label": "🌴 Palmier à huile", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
-      { "id": "cocoa", "label": "🍫 Cacao", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
-      { "id": "coffee", "label": "☕ Café", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
-      { "id": "plantain", "label": "🍌 Plantain, Banane, Manioc, Igname", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
-      { "id": "rubber", "label": "🌳 Hévéa", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
-      { "id": "tea", "label": "🍵 Thé", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
-      { "id": "cotton", "label": "🧶 Coton", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
-      { "id": "sugarcane", "label": "🎋 Canne à sucre & Bambou", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." },
-      { "id": "rice", "label": "🍚 Riz Paddy", "pre": "Détails du PDF pages 2–19.", "post": "Détails du PDF pages 2–19.", "spray": "Détails du PDF pages 2–19." }
+      {
+        "id": "pepper",
+        "label": "🌶️ Piment, Tomate, Gombo, Chou",
+        "pre": "Détails du PDF pages 2–19.",
+        "post": "Détails du PDF pages 2–19.",
+        "spray": "Détails du PDF pages 2–19."
+      },
+      {
+        "id": "cucumber",
+        "label": "🥒 Concombre, Épinard, Aubergine, Légumes",
+        "pre": "Détails du PDF pages 2–19.",
+        "post": "Détails du PDF pages 2–19.",
+        "spray": "Détails du PDF pages 2–19."
+      },
+      {
+        "id": "potato",
+        "label": "🥔 Pomme de terre, Carotte, Oignon",
+        "pre": "Détails du PDF pages 2–19.",
+        "post": "Détails du PDF pages 2–19.",
+        "spray": "Détails du PDF pages 2–19."
+      },
+      {
+        "id": "peanut",
+        "label": "🥜 Arachide, Soja",
+        "pre": "Détails du PDF pages 2–19.",
+        "post": "Détails du PDF pages 2–19.",
+        "spray": "Détails du PDF pages 2–19."
+      },
+      {
+        "id": "watermelon",
+        "label": "🍉 Pastèque, Ananas",
+        "pre": "Détails du PDF pages 2–19.",
+        "post": "Détails du PDF pages 2–19.",
+        "spray": "Détails du PDF pages 2–19."
+      },
+      {
+        "id": "citrus",
+        "label": "🍊 Pomme, Orange, Poire",
+        "pre": "Détails du PDF pages 2–19.",
+        "post": "Détails du PDF pages 2–19.",
+        "spray": "Détails du PDF pages 2–19."
+      },
+      {
+        "id": "mango",
+        "label": "🥭 Mangue, Durian, Carambole, Mangoustan",
+        "pre": "Détails du PDF pages 2–19.",
+        "post": "Détails du PDF pages 2–19.",
+        "spray": "Détails du PDF pages 2–19."
+      },
+      {
+        "id": "corn",
+        "label": "🌽 Maïs, Millet, Sorgho",
+        "pre": "Détails du PDF pages 2–19.",
+        "post": "Détails du PDF pages 2–19.",
+        "spray": "Détails du PDF pages 2–19."
+      },
+      {
+        "id": "oil-palm",
+        "label": "🌴 Palmier à huile",
+        "pre": "Détails du PDF pages 2–19.",
+        "post": "Détails du PDF pages 2–19.",
+        "spray": "Détails du PDF pages 2–19."
+      },
+      {
+        "id": "cocoa",
+        "label": "🍫 Cacao",
+        "pre": "Détails du PDF pages 2–19.",
+        "post": "Détails du PDF pages 2–19.",
+        "spray": "Détails du PDF pages 2–19."
+      },
+      {
+        "id": "coffee",
+        "label": "☕ Café",
+        "pre": "Détails du PDF pages 2–19.",
+        "post": "Détails du PDF pages 2–19.",
+        "spray": "Détails du PDF pages 2–19."
+      },
+      {
+        "id": "plantain",
+        "label": "🍌 Plantain, Banane, Manioc, Igname",
+        "pre": "Détails du PDF pages 2–19.",
+        "post": "Détails du PDF pages 2–19.",
+        "spray": "Détails du PDF pages 2–19."
+      },
+      {
+        "id": "rubber",
+        "label": "🌳 Hévéa",
+        "pre": "Détails du PDF pages 2–19.",
+        "post": "Détails du PDF pages 2–19.",
+        "spray": "Détails du PDF pages 2–19."
+      },
+      {
+        "id": "tea",
+        "label": "🍵 Thé",
+        "pre": "Détails du PDF pages 2–19.",
+        "post": "Détails du PDF pages 2–19.",
+        "spray": "Détails du PDF pages 2–19."
+      },
+      {
+        "id": "cotton",
+        "label": "🧶 Coton",
+        "pre": "Détails du PDF pages 2–19.",
+        "post": "Détails du PDF pages 2–19.",
+        "spray": "Détails du PDF pages 2–19."
+      },
+      {
+        "id": "sugarcane",
+        "label": "🎋 Canne à sucre & Bambou",
+        "pre": "Détails du PDF pages 2–19.",
+        "post": "Détails du PDF pages 2–19.",
+        "spray": "Détails du PDF pages 2–19."
+      },
+      {
+        "id": "rice",
+        "label": "🍚 Riz Paddy",
+        "pre": "Détails du PDF pages 2–19.",
+        "post": "Détails du PDF pages 2–19.",
+        "spray": "Détails du PDF pages 2–19."
+      }
     ]
   },
   "composition": {
@@ -104,40 +257,121 @@
     "subtitle": "Valeurs résumées du guide technique.",
     "safe": "Sûr",
     "rows": [
-      { "label": "C-organique", "value": "18.12%" },
-      { "label": "Ratio C/N", "value": "24.16" },
-      { "label": "Azote", "value": "0.75%" },
-      { "label": "P₂O₅", "value": "2.65%" },
-      { "label": "K₂O", "value": "0.86%" },
-      { "label": "Fe", "value": "2694 ppm" },
-      { "label": "Mn", "value": "193 ppm" },
-      { "label": "B,Ha", "value": "129 ppm" },
-      { "label": "Cu", "value": "48 ppm" },
-      { "label": "Zn,Na", "value": "25 ppm" },
-      { "label": "Mo", "value": "3.7 ppm" },
-      { "label": "As", "value": "Non détecté" },
-      { "label": "Co", "value": "Non détecté" },
-      { "label": "Hg", "value": "Non détecté" },
-      { "label": "Cd", "value": "Non détecté" }
+      {
+        "label": "C-organique",
+        "value": "18.12%"
+      },
+      {
+        "label": "Ratio C/N",
+        "value": "24.16"
+      },
+      {
+        "label": "Azote",
+        "value": "0.75%"
+      },
+      {
+        "label": "P₂O₅",
+        "value": "2.65%"
+      },
+      {
+        "label": "K₂O",
+        "value": "0.86%"
+      },
+      {
+        "label": "Fe",
+        "value": "2694 ppm"
+      },
+      {
+        "label": "Mn",
+        "value": "193 ppm"
+      },
+      {
+        "label": "B,Ha",
+        "value": "129 ppm"
+      },
+      {
+        "label": "Cu",
+        "value": "48 ppm"
+      },
+      {
+        "label": "Zn,Na",
+        "value": "25 ppm"
+      },
+      {
+        "label": "Mo",
+        "value": "3.7 ppm"
+      },
+      {
+        "label": "As",
+        "value": "Non détecté"
+      },
+      {
+        "label": "Co",
+        "value": "Non détecté"
+      },
+      {
+        "label": "Hg",
+        "value": "Non détecté"
+      },
+      {
+        "label": "Cd",
+        "value": "Non détecté"
+      }
     ],
     "elementsTitle": "Éléments essentiels (extrait)",
     "elements": [
-      { "name": "Azote (N)", "role": "Élément macro essentiel à la croissance." },
-      { "name": "Phosphore (P)", "role": "Favorise l'enracinement et la floraison." },
-      { "name": "Potassium (K)", "role": "Améliore la résistance et la régulation de l'eau." },
-      { "name": "Fer (Fe)", "role": "Indispensable à la chlorophylle." }
+      {
+        "name": "Azote (N)",
+        "role": "Élément macro essentiel à la croissance."
+      },
+      {
+        "name": "Phosphore (P)",
+        "role": "Favorise l'enracinement et la floraison."
+      },
+      {
+        "name": "Potassium (K)",
+        "role": "Améliore la résistance et la régulation de l'eau."
+      },
+      {
+        "name": "Fer (Fe)",
+        "role": "Indispensable à la chlorophylle."
+      }
     ]
   },
   "advantages": {
     "title": "Avantages comparatifs",
     "subtitle": "Impact mesuré par rapport aux pratiques classiques.",
     "stats": [
-      { "value": 40, "suffix": "%+", "label": "Hausse des rendements" },
-      { "value": 50, "suffix": "%", "label": "Réduction des coûts" },
-      { "value": 60, "suffix": "%", "label": "Moins d'engrais chimiques" },
-      { "value": 20, "suffix": "+", "label": "Éléments essentiels" },
-      { "value": 0, "suffix": "", "label": "Résidus chimiques" },
-      { "value": 1998, "suffix": "", "label": "Depuis" }
+      {
+        "value": 40,
+        "suffix": "%+",
+        "label": "Hausse des rendements"
+      },
+      {
+        "value": 50,
+        "suffix": "%",
+        "label": "Réduction des coûts"
+      },
+      {
+        "value": 60,
+        "suffix": "%",
+        "label": "Moins d'engrais chimiques"
+      },
+      {
+        "value": 20,
+        "suffix": "+",
+        "label": "Éléments essentiels"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "Résidus chimiques"
+      },
+      {
+        "value": 1998,
+        "suffix": "",
+        "label": "Depuis"
+      }
     ],
     "beforeAfterPlaceholder": "Le slider avant/après sera ajouté dès réception des images."
   },
@@ -145,11 +379,21 @@
     "title": "Témoignages & Résultats",
     "subtitle": "Preuves sociales issues des démonstrations AGRODYKE.",
     "items": [
-      { "title": "UNVDA Ndop Riz (2017/2018)", "description": "Rendement passé de 4mt à 10mt/hectare." },
-      { "title": "Plantation de Thé NDAWARA (Juillet 2018)", "description": "Plantes plus saines et productivité accrue." },
-      { "title": "Domaine Hévéa Chief Mukete (2017)", "description": "Récupération du sol et vigueur des plants." }
+      {
+        "title": "UNVDA Ndop Riz (2017/2018)",
+        "description": "Rendement passé de 4mt à 10mt/hectare."
+      },
+      {
+        "title": "Plantation de Thé NDAWARA (Juillet 2018)",
+        "description": "Plantes plus saines et productivité accrue."
+      },
+      {
+        "title": "Domaine Hévéa Chief Mukete (2017)",
+        "description": "Récupération du sol et vigueur des plants."
+      }
     ],
-    "carouselNote": "Le carrousel automatique sera activé dès réception des médias."
+    "carouselNote": "Le carrousel automatique sera activé dès réception des médias.",
+    "verifiedFarmer": "Agriculteur Vérifié"
   },
   "pricing": {
     "title": "Tarifs & Formats",
@@ -210,10 +454,16 @@
     "subtitle": "Contactez SONEDIS/SODEPAD pour commandes ou informations.",
     "phonesLabel": "Téléphone / WhatsApp",
     "phones": "+237 675 40 53 48 / +237 695 38 36 64",
-    "phoneItems": ["+237 675 40 53 48", "+237 695 38 36 64"],
+    "phoneItems": [
+      "+237 675 40 53 48",
+      "+237 695 38 36 64"
+    ],
     "emailsLabel": "Email",
     "emails": "globalbusinessincorp@yahoo.com, jerrydehlah@gmail.com",
-    "emailItems": ["globalbusinessincorp@yahoo.com", "jerrydehlah@gmail.com"],
+    "emailItems": [
+      "globalbusinessincorp@yahoo.com",
+      "jerrydehlah@gmail.com"
+    ],
     "websiteLabel": "Site web",
     "website": "www.sonediscm.com",
     "addressLabel": "Adresse",
@@ -233,16 +483,56 @@
     "title": "Questions fréquentes",
     "subtitle": "Réponses rapides sur AGRODYKE.",
     "items": [
-      { "id": "faq-1", "question": "Qu'est-ce que AGRODYKE ?", "answer": "Un engrais organique 6-en-1 pour nourrir et protéger les cultures." },
-      { "id": "faq-2", "question": "AGRODYKE est-il sans danger ?", "answer": "Oui. Il est non toxique et sans résidus chimiques." },
-      { "id": "faq-3", "question": "Puis-je utiliser AGRODYKE sur toute culture ?", "answer": "Oui, il est conçu pour toutes les cultures." },
-      { "id": "faq-4", "question": "Quelle dose par hectare ?", "answer": "La dose dépend de la culture et du mode d'application." },
-      { "id": "faq-5", "question": "Puis-je mélanger avec des engrais chimiques ?", "answer": "Oui, et cela réduit les besoins de 60–70%." },
-      { "id": "faq-6", "question": "Puis-je utiliser avec des herbicides ?", "answer": "Non. Attendre au moins 7 jours après herbicide." },
-      { "id": "faq-7", "question": "Où est fabriqué AGRODYKE ?", "answer": "AGRODYKE est enregistré internationalement et distribué par SONEDIS." },
-      { "id": "faq-8", "question": "Comment payer ?", "answer": "Paiement via MTN Mobile Money, Orange Money ou WhatsApp." },
-      { "id": "faq-9", "question": "Livrez-vous ?", "answer": "Oui. Les détails sont confirmés à la commande." },
-      { "id": "faq-10", "question": "Comment vous contacter ?", "answer": "Utilisez les contacts du site (téléphone, WhatsApp, email)." }
+      {
+        "id": "faq-1",
+        "question": "Qu'est-ce que AGRODYKE ?",
+        "answer": "Un engrais organique 6-en-1 pour nourrir et protéger les cultures."
+      },
+      {
+        "id": "faq-2",
+        "question": "AGRODYKE est-il sans danger ?",
+        "answer": "Oui. Il est non toxique et sans résidus chimiques."
+      },
+      {
+        "id": "faq-3",
+        "question": "Puis-je utiliser AGRODYKE sur toute culture ?",
+        "answer": "Oui, il est conçu pour toutes les cultures."
+      },
+      {
+        "id": "faq-4",
+        "question": "Quelle dose par hectare ?",
+        "answer": "La dose dépend de la culture et du mode d'application."
+      },
+      {
+        "id": "faq-5",
+        "question": "Puis-je mélanger avec des engrais chimiques ?",
+        "answer": "Oui, et cela réduit les besoins de 60–70%."
+      },
+      {
+        "id": "faq-6",
+        "question": "Puis-je utiliser avec des herbicides ?",
+        "answer": "Non. Attendre au moins 7 jours après herbicide."
+      },
+      {
+        "id": "faq-7",
+        "question": "Où est fabriqué AGRODYKE ?",
+        "answer": "AGRODYKE est enregistré internationalement et distribué par SONEDIS."
+      },
+      {
+        "id": "faq-8",
+        "question": "Comment payer ?",
+        "answer": "Paiement via MTN Mobile Money, Orange Money ou WhatsApp."
+      },
+      {
+        "id": "faq-9",
+        "question": "Livrez-vous ?",
+        "answer": "Oui. Les détails sont confirmés à la commande."
+      },
+      {
+        "id": "faq-10",
+        "question": "Comment vous contacter ?",
+        "answer": "Utilisez les contacts du site (téléphone, WhatsApp, email)."
+      }
     ]
   },
   "footer": {

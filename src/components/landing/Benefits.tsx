@@ -12,7 +12,7 @@ export default function Benefits() {
   const benefits = t.raw("benefits.items") as { title: string; description: string }[];
 
   return (
-    <section id="benefits" className="bg-green-50/60">
+    <section id="benefits" className="bg-white">
       <Container className="py-16">
         <SectionHeading title={t("benefits.title")} subtitle={t("benefits.subtitle")} />
         <motion.div

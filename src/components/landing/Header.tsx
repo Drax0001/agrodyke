@@ -1,13 +1,13 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
-import { Menu, X } from "lucide-react";
 import Logo from "@/components/shared/Logo";
 import LanguageToggle from "@/components/ui/LanguageToggle";
 import { useCartStore } from "@/store/cart";
+import { useEffect, useMemo } from "react";
 
 const SECTION_IDS = [
   "home",
@@ -83,14 +83,12 @@ export default function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full border-b border-white/10 backdrop-blur transition-all ${
-        isScrolled ? "bg-white/90 shadow-sm" : "bg-white/40"
-      }`}
+      className={`sticky top-0 z-50 w-full border-b border-white/10 backdrop-blur transition-all ${isScrolled ? "bg-white/90 shadow-sm" : "bg-white/40"
+        }`}
     >
       <div
-        className={`mx-auto flex w-full max-w-6xl items-center justify-between px-6 transition-all ${
-          isScrolled ? "h-16" : "h-20"
-        }`}
+        className={`mx-auto flex w-full max-w-6xl items-center justify-between px-6 transition-all ${isScrolled ? "h-16" : "h-20"
+          }`}
       >
         <Logo size={36} />
         <nav className="hidden items-center gap-6 text-sm font-semibold text-slate-700 lg:flex">
@@ -98,9 +96,8 @@ export default function Header() {
             <a
               key={item.id}
               href={`#${item.id}`}
-              className={`relative transition ${
-                activeSection === item.id ? "text-green-700" : "hover:text-green-700"
-              }`}
+              className={`relative transition ${activeSection === item.id ? "text-green-700" : "hover:text-green-700"
+                }`}
             >
               {item.label}
               {activeSection === item.id ? (
@@ -129,7 +126,12 @@ export default function Header() {
             onClick={() => setMenuOpen(true)}
             aria-label="Open menu"
           >
-            <Menu className="h-5 w-5" />
+            {/* Hamburger icon — inline SVG, no lucide-react */}
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
           </button>
         </div>
       </div>
@@ -162,7 +164,11 @@ export default function Header() {
                   onClick={() => setMenuOpen(false)}
                   aria-label="Close menu"
                 >
-                  <X className="h-4 w-4" />
+                  {/* X icon — inline SVG, no lucide-react */}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                  </svg>
                 </button>
               </div>
               <div className="mt-6 flex flex-col gap-4 text-sm font-semibold text-slate-700">

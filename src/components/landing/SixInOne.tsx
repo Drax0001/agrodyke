@@ -22,7 +22,7 @@ export default function SixInOne() {
 
   return (
     <section className="bg-green-800 text-white">
-      <Container className="py-8">
+      <Container className="py-16">
         <motion.div
           initial="hidden"
           whileInView="show"

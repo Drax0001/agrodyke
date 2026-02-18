@@ -47,29 +47,80 @@
     "title": "Key Benefits",
     "subtitle": "Highlights from the official AGRODYKE guide.",
     "items": [
-      { "title": "Accelerates Plant Growth", "description": "Faster vegetative development and stronger plants." },
-      { "title": "Increases Soil Fertility Naturally", "description": "Rebuilds soil health without chemical residues." },
-      { "title": "50% Production Cost Reduction", "description": "Reduce overall input costs while improving yields." },
-      { "title": "Pest & Disease Resistance", "description": "Strengthens plant immunity and resilience." },
-      { "title": "Works on All Crops", "description": "Suitable for vegetables, cereals, fruit, and plantations." },
-      { "title": "60–70% Less Chemical Fertilizer", "description": "Decrease dependence on chemical inputs." },
-      { "title": "40%+ Yield Increase", "description": "Proven results in field demonstrations." },
-      { "title": "Activates Soil Microbes", "description": "Boosts beneficial microbial activity." },
-      { "title": "Repairs Plant Tissues", "description": "Supports recovery from stress and damage." },
-      { "title": "Eco-Friendly", "description": "No chemical residues; safe for export crops." },
-      { "title": "Export-Quality Harvest", "description": "Improves quality and market acceptance." },
-      { "title": "Easy to Apply", "description": "Saves labor and simplifies farm operations." }
+      {
+        "title": "Accelerates Plant Growth",
+        "description": "Faster vegetative development and stronger plants."
+      },
+      {
+        "title": "Increases Soil Fertility Naturally",
+        "description": "Rebuilds soil health without chemical residues."
+      },
+      {
+        "title": "50% Production Cost Reduction",
+        "description": "Reduce overall input costs while improving yields."
+      },
+      {
+        "title": "Pest & Disease Resistance",
+        "description": "Strengthens plant immunity and resilience."
+      },
+      {
+        "title": "Works on All Crops",
+        "description": "Suitable for vegetables, cereals, fruit, and plantations."
+      },
+      {
+        "title": "60–70% Less Chemical Fertilizer",
+        "description": "Decrease dependence on chemical inputs."
+      },
+      {
+        "title": "40%+ Yield Increase",
+        "description": "Proven results in field demonstrations."
+      },
+      {
+        "title": "Activates Soil Microbes",
+        "description": "Boosts beneficial microbial activity."
+      },
+      {
+        "title": "Repairs Plant Tissues",
+        "description": "Supports recovery from stress and damage."
+      },
+      {
+        "title": "Eco-Friendly",
+        "description": "No chemical residues; safe for export crops."
+      },
+      {
+        "title": "Export-Quality Harvest",
+        "description": "Improves quality and market acceptance."
+      },
+      {
+        "title": "Easy to Apply",
+        "description": "Saves labor and simplifies farm operations."
+      }
     ]
   },
   "howItWorks": {
     "title": "How It Works",
     "subtitle": "General application guide from the technical manual.",
     "steps": [
-      { "title": "Step A — Soaking of Seeds", "description": "20g AGRODYKE + 3L water. Store for 1–2 days before planting." },
-      { "title": "Step B — Seed Bed Sterilization", "description": "80g in 15L water. Spray 3–7 days before sowing." },
-      { "title": "Step C — Transplantation Sterilization", "description": "100g in 15L water. Spray 3–7 days before planting." },
-      { "title": "Step D — Direct Fertilization / Sowing", "description": "1–2kg in 50kg media. Sow 10–15g per crop." },
-      { "title": "Step E — Spraying", "description": "40–100g in 15L water. Intervals vary by crop." }
+      {
+        "title": "Step A — Soaking of Seeds",
+        "description": "20g AGRODYKE + 3L water. Store for 1–2 days before planting."
+      },
+      {
+        "title": "Step B — Seed Bed Sterilization",
+        "description": "80g in 15L water. Spray 3–7 days before sowing."
+      },
+      {
+        "title": "Step C — Transplantation Sterilization",
+        "description": "100g in 15L water. Spray 3–7 days before planting."
+      },
+      {
+        "title": "Step D — Direct Fertilization / Sowing",
+        "description": "1–2kg in 50kg media. Sow 10–15g per crop."
+      },
+      {
+        "title": "Step E — Spraying",
+        "description": "40–100g in 15L water. Intervals vary by crop."
+      }
     ],
     "disclaimer": "AGRODYKE can be mixed with any input EXCEPT herbicides. Wait at least 7 days after herbicide application."
   },
@@ -80,23 +131,125 @@
     "postPlanting": "Post-Planting",
     "spraying": "Spraying",
     "crops": [
-      { "id": "pepper", "label": "🌶️ Pepper, Tomato, Okra, Cabbage", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
-      { "id": "cucumber", "label": "🥒 Cucumber, Spinach, Garden Eggs, Vegetables", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
-      { "id": "potato", "label": "🥔 Irish Potatoes, Carrots, Onions", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
-      { "id": "peanut", "label": "🥜 Peanut, Groundnuts, Soya Beans", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
-      { "id": "watermelon", "label": "🍉 Watermelon, Pineapple", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
-      { "id": "citrus", "label": "🍊 Apple, Orange, Pearls", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
-      { "id": "mango", "label": "🥭 Mango, Durian, Star Fruits, Mangoustans", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
-      { "id": "corn", "label": "🌽 Corn (Maize), Millet, Sorghum", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
-      { "id": "oil-palm", "label": "🌴 Oil Palms", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
-      { "id": "cocoa", "label": "🍫 Cocoa Plantation", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
-      { "id": "coffee", "label": "☕ Coffee Plantation", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
-      { "id": "plantain", "label": "🍌 Plantain, Banana, Cassava, Yams", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
-      { "id": "rubber", "label": "🌳 Rubber Trees", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
-      { "id": "tea", "label": "🍵 Tea Plantation", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
-      { "id": "cotton", "label": "🧶 Cotton Plantation", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
-      { "id": "sugarcane", "label": "🎋 Sugar Cane & Bamboos", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." },
-      { "id": "rice", "label": "🍚 Paddy Rice", "pre": "Placeholder details from PDF pages 2–19.", "post": "Placeholder details from PDF pages 2–19.", "spray": "Placeholder details from PDF pages 2–19." }
+      {
+        "id": "pepper",
+        "label": "🌶️ Pepper, Tomato, Okra, Cabbage",
+        "pre": "Placeholder details from PDF pages 2–19.",
+        "post": "Placeholder details from PDF pages 2–19.",
+        "spray": "Placeholder details from PDF pages 2–19."
+      },
+      {
+        "id": "cucumber",
+        "label": "🥒 Cucumber, Spinach, Garden Eggs, Vegetables",
+        "pre": "Placeholder details from PDF pages 2–19.",
+        "post": "Placeholder details from PDF pages 2–19.",
+        "spray": "Placeholder details from PDF pages 2–19."
+      },
+      {
+        "id": "potato",
+        "label": "🥔 Irish Potatoes, Carrots, Onions",
+        "pre": "Placeholder details from PDF pages 2–19.",
+        "post": "Placeholder details from PDF pages 2–19.",
+        "spray": "Placeholder details from PDF pages 2–19."
+      },
+      {
+        "id": "peanut",
+        "label": "🥜 Peanut, Groundnuts, Soya Beans",
+        "pre": "Placeholder details from PDF pages 2–19.",
+        "post": "Placeholder details from PDF pages 2–19.",
+        "spray": "Placeholder details from PDF pages 2–19."
+      },
+      {
+        "id": "watermelon",
+        "label": "🍉 Watermelon, Pineapple",
+        "pre": "Placeholder details from PDF pages 2–19.",
+        "post": "Placeholder details from PDF pages 2–19.",
+        "spray": "Placeholder details from PDF pages 2–19."
+      },
+      {
+        "id": "citrus",
+        "label": "🍊 Apple, Orange, Pearls",
+        "pre": "Placeholder details from PDF pages 2–19.",
+        "post": "Placeholder details from PDF pages 2–19.",
+        "spray": "Placeholder details from PDF pages 2–19."
+      },
+      {
+        "id": "mango",
+        "label": "🥭 Mango, Durian, Star Fruits, Mangoustans",
+        "pre": "Placeholder details from PDF pages 2–19.",
+        "post": "Placeholder details from PDF pages 2–19.",
+        "spray": "Placeholder details from PDF pages 2–19."
+      },
+      {
+        "id": "corn",
+        "label": "🌽 Corn (Maize), Millet, Sorghum",
+        "pre": "Placeholder details from PDF pages 2–19.",
+        "post": "Placeholder details from PDF pages 2–19.",
+        "spray": "Placeholder details from PDF pages 2–19."
+      },
+      {
+        "id": "oil-palm",
+        "label": "🌴 Oil Palms",
+        "pre": "Placeholder details from PDF pages 2–19.",
+        "post": "Placeholder details from PDF pages 2–19.",
+        "spray": "Placeholder details from PDF pages 2–19."
+      },
+      {
+        "id": "cocoa",
+        "label": "🍫 Cocoa Plantation",
+        "pre": "Placeholder details from PDF pages 2–19.",
+        "post": "Placeholder details from PDF pages 2–19.",
+        "spray": "Placeholder details from PDF pages 2–19."
+      },
+      {
+        "id": "coffee",
+        "label": "☕ Coffee Plantation",
+        "pre": "Placeholder details from PDF pages 2–19.",
+        "post": "Placeholder details from PDF pages 2–19.",
+        "spray": "Placeholder details from PDF pages 2–19."
+      },
+      {
+        "id": "plantain",
+        "label": "🍌 Plantain, Banana, Cassava, Yams",
+        "pre": "Placeholder details from PDF pages 2–19.",
+        "post": "Placeholder details from PDF pages 2–19.",
+        "spray": "Placeholder details from PDF pages 2–19."
+      },
+      {
+        "id": "rubber",
+        "label": "🌳 Rubber Trees",
+        "pre": "Placeholder details from PDF pages 2–19.",
+        "post": "Placeholder details from PDF pages 2–19.",
+        "spray": "Placeholder details from PDF pages 2–19."
+      },
+      {
+        "id": "tea",
+        "label": "🍵 Tea Plantation",
+        "pre": "Placeholder details from PDF pages 2–19.",
+        "post": "Placeholder details from PDF pages 2–19.",
+        "spray": "Placeholder details from PDF pages 2–19."
+      },
+      {
+        "id": "cotton",
+        "label": "🧶 Cotton Plantation",
+        "pre": "Placeholder details from PDF pages 2–19.",
+        "post": "Placeholder details from PDF pages 2–19.",
+        "spray": "Placeholder details from PDF pages 2–19."
+      },
+      {
+        "id": "sugarcane",
+        "label": "🎋 Sugar Cane & Bamboos",
+        "pre": "Placeholder details from PDF pages 2–19.",
+        "post": "Placeholder details from PDF pages 2–19.",
+        "spray": "Placeholder details from PDF pages 2–19."
+      },
+      {
+        "id": "rice",
+        "label": "🍚 Paddy Rice",
+        "pre": "Placeholder details from PDF pages 2–19.",
+        "post": "Placeholder details from PDF pages 2–19.",
+        "spray": "Placeholder details from PDF pages 2–19."
+      }
     ]
   },
   "composition": {
@@ -104,40 +257,121 @@
     "subtitle": "Summary values from the technical guide.",
     "safe": "Safe",
     "rows": [
-      { "label": "C-organic", "value": "18.12%" },
-      { "label": "C/N Ratio", "value": "24.16" },
-      { "label": "Nitrogen", "value": "0.75%" },
-      { "label": "P₂O₅", "value": "2.65%" },
-      { "label": "K₂O", "value": "0.86%" },
-      { "label": "Fe", "value": "2694 ppm" },
-      { "label": "Mn", "value": "193 ppm" },
-      { "label": "B,Ha", "value": "129 ppm" },
-      { "label": "Cu", "value": "48 ppm" },
-      { "label": "Zn,Na", "value": "25 ppm" },
-      { "label": "Mo", "value": "3.7 ppm" },
-      { "label": "As", "value": "Not detected" },
-      { "label": "Co", "value": "Not detected" },
-      { "label": "Hg", "value": "Not detected" },
-      { "label": "Cd", "value": "Not detected" }
+      {
+        "label": "C-organic",
+        "value": "18.12%"
+      },
+      {
+        "label": "C/N Ratio",
+        "value": "24.16"
+      },
+      {
+        "label": "Nitrogen",
+        "value": "0.75%"
+      },
+      {
+        "label": "P₂O₅",
+        "value": "2.65%"
+      },
+      {
+        "label": "K₂O",
+        "value": "0.86%"
+      },
+      {
+        "label": "Fe",
+        "value": "2694 ppm"
+      },
+      {
+        "label": "Mn",
+        "value": "193 ppm"
+      },
+      {
+        "label": "B,Ha",
+        "value": "129 ppm"
+      },
+      {
+        "label": "Cu",
+        "value": "48 ppm"
+      },
+      {
+        "label": "Zn,Na",
+        "value": "25 ppm"
+      },
+      {
+        "label": "Mo",
+        "value": "3.7 ppm"
+      },
+      {
+        "label": "As",
+        "value": "Not detected"
+      },
+      {
+        "label": "Co",
+        "value": "Not detected"
+      },
+      {
+        "label": "Hg",
+        "value": "Not detected"
+      },
+      {
+        "label": "Cd",
+        "value": "Not detected"
+      }
     ],
     "elementsTitle": "Essential Elements (Sample)",
     "elements": [
-      { "name": "Nitrogen (N)", "role": "Essential macro element for plant growth." },
-      { "name": "Phosphorus (P)", "role": "Supports root development and flowering." },
-      { "name": "Potassium (K)", "role": "Improves water regulation and resilience." },
-      { "name": "Iron (Fe)", "role": "Vital for chlorophyll formation." }
+      {
+        "name": "Nitrogen (N)",
+        "role": "Essential macro element for plant growth."
+      },
+      {
+        "name": "Phosphorus (P)",
+        "role": "Supports root development and flowering."
+      },
+      {
+        "name": "Potassium (K)",
+        "role": "Improves water regulation and resilience."
+      },
+      {
+        "name": "Iron (Fe)",
+        "role": "Vital for chlorophyll formation."
+      }
     ]
   },
   "advantages": {
     "title": "Comparative Advantages",
     "subtitle": "Measured impact versus conventional practices.",
     "stats": [
-      { "value": 40, "suffix": "%+", "label": "Yield increase" },
-      { "value": 50, "suffix": "%", "label": "Cost reduction" },
-      { "value": 60, "suffix": "%", "label": "Less chemical fertilizer needed" },
-      { "value": 20, "suffix": "+", "label": "Essential elements" },
-      { "value": 0, "suffix": "", "label": "Chemical residues" },
-      { "value": 1998, "suffix": "", "label": "Trusted since" }
+      {
+        "value": 40,
+        "suffix": "%+",
+        "label": "Yield increase"
+      },
+      {
+        "value": 50,
+        "suffix": "%",
+        "label": "Cost reduction"
+      },
+      {
+        "value": 60,
+        "suffix": "%",
+        "label": "Less chemical fertilizer needed"
+      },
+      {
+        "value": 20,
+        "suffix": "+",
+        "label": "Essential elements"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "Chemical residues"
+      },
+      {
+        "value": 1998,
+        "suffix": "",
+        "label": "Trusted since"
+      }
     ],
     "beforeAfterPlaceholder": "Before/after results slider will appear here once crop images are available."
   },
@@ -145,11 +379,21 @@
     "title": "Testimonials & Field Results",
     "subtitle": "Social proof from AGRODYKE field demonstrations.",
     "items": [
-      { "title": "UNVDA Ndop Rice (2017/2018)", "description": "Yield improved from 4mt to 10mt/hectare." },
-      { "title": "NDAWARA Tea Estate (July 2018)", "description": "Field trials showed healthier plants and higher productivity." },
-      { "title": "Chief Mukete Rubber Estate (2017)", "description": "Visible soil recovery and plant vigor after application." }
+      {
+        "title": "UNVDA Ndop Rice (2017/2018)",
+        "description": "Yield improved from 4mt to 10mt/hectare."
+      },
+      {
+        "title": "NDAWARA Tea Estate (July 2018)",
+        "description": "Field trials showed healthier plants and higher productivity."
+      },
+      {
+        "title": "Chief Mukete Rubber Estate (2017)",
+        "description": "Visible soil recovery and plant vigor after application."
+      }
     ],
-    "carouselNote": "Carousel autoplay and swipe interactions will be enabled once media assets are ready."
+    "carouselNote": "Carousel autoplay and swipe interactions will be enabled once media assets are ready.",
+    "verifiedFarmer": "Verified Farmer"
   },
   "pricing": {
     "title": "Pricing & Product Variants",
@@ -210,10 +454,16 @@
     "subtitle": "Reach SONEDIS/SODEPAD for orders or inquiries.",
     "phonesLabel": "Phone / WhatsApp",
     "phones": "+237 675 40 53 48 / +237 695 38 36 64",
-    "phoneItems": ["+237 675 40 53 48", "+237 695 38 36 64"],
+    "phoneItems": [
+      "+237 675 40 53 48",
+      "+237 695 38 36 64"
+    ],
     "emailsLabel": "Email",
     "emails": "globalbusinessincorp@yahoo.com, jerrydehlah@gmail.com",
-    "emailItems": ["globalbusinessincorp@yahoo.com", "jerrydehlah@gmail.com"],
+    "emailItems": [
+      "globalbusinessincorp@yahoo.com",
+      "jerrydehlah@gmail.com"
+    ],
     "websiteLabel": "Website",
     "website": "www.sonediscm.com",
     "addressLabel": "Address",
@@ -233,27 +483,67 @@
     "title": "Frequently Asked Questions",
     "subtitle": "Quick answers about AGRODYKE.",
     "items": [
-      { "id": "faq-1", "question": "What is AGRODYKE?", "answer": "A six-in-one organic fertilizer that nourishes and protects crops." },
-      { "id": "faq-2", "question": "Is AGRODYKE safe for humans and animals?", "answer": "Yes. It is non-toxic and leaves no chemical residues." },
-      { "id": "faq-3", "question": "Can I use AGRODYKE on any crop?", "answer": "Yes. It is designed for all crops and farming systems." },
-      { "id": "faq-4", "question": "How much AGRODYKE do I need per hectare?", "answer": "Dosage depends on crop type and application method." },
-      { "id": "faq-5", "question": "Can I mix AGRODYKE with chemical fertilizers?", "answer": "Yes, and it can reduce chemical fertilizer needs by 60–70%." },
-      { "id": "faq-6", "question": "Can I use AGRODYKE with herbicides?", "answer": "No. Wait at least 7 days after herbicide application." },
-      { "id": "faq-7", "question": "Where is AGRODYKE manufactured?", "answer": "AGRODYKE is internationally registered and distributed in CEMAC by SONEDIS." },
-      { "id": "faq-8", "question": "How do I pay?", "answer": "Payments are made via MTN Mobile Money, Orange Money, or WhatsApp." },
-      { "id": "faq-9", "question": "Do you deliver?", "answer": "Yes. Delivery details are confirmed during checkout." },
-      { "id": "faq-10", "question": "How do I contact you?", "answer": "Use the phone numbers, WhatsApp, or email listed in the contact section." }
+      {
+        "id": "faq-1",
+        "question": "What is AGRODYKE?",
+        "answer": "A six-in-one organic fertilizer that nourishes and protects crops."
+      },
+      {
+        "id": "faq-2",
+        "question": "Is AGRODYKE safe for humans and animals?",
+        "answer": "Yes. It is non-toxic and leaves no chemical residues."
+      },
+      {
+        "id": "faq-3",
+        "question": "Can I use AGRODYKE on any crop?",
+        "answer": "Yes. It is designed for all crops and farming systems."
+      },
+      {
+        "id": "faq-4",
+        "question": "How much AGRODYKE do I need per hectare?",
+        "answer": "Dosage depends on crop type and application method."
+      },
+      {
+        "id": "faq-5",
+        "question": "Can I mix AGRODYKE with chemical fertilizers?",
+        "answer": "Yes, and it can reduce chemical fertilizer needs by 60–70%."
+      },
+      {
+        "id": "faq-6",
+        "question": "Can I use AGRODYKE with herbicides?",
+        "answer": "No. Wait at least 7 days after herbicide application."
+      },
+      {
+        "id": "faq-7",
+        "question": "Where is AGRODYKE manufactured?",
+        "answer": "AGRODYKE is internationally registered and distributed in CEMAC by SONEDIS."
+      },
+      {
+        "id": "faq-8",
+        "question": "How do I pay?",
+        "answer": "Payments are made via MTN Mobile Money, Orange Money, or WhatsApp."
+      },
+      {
+        "id": "faq-9",
+        "question": "Do you deliver?",
+        "answer": "Yes. Delivery details are confirmed during checkout."
+      },
+      {
+        "id": "faq-10",
+        "question": "How do I contact you?",
+        "answer": "Use the phone numbers, WhatsApp, or email listed in the contact section."
+      }
     ]
   },
   "footer": {
     "tagline": "Organic technology for healthier soils and higher yields.",
     "quickLinks": "Quick Links",
     "contact": "Contact",
-    "legal": "© 2025 SONEDIS Sarl. All rights reserved. International Registration: 02.01.2013.027 | REG. R 489441 | MINADER Recommended"
+    "legal": "© 2026 SONEDIS Sarl. All rights reserved. International Registration: 02.01.2013.027 | REG. R 489441 | MINADER Recommended"
   },
   "whatsapp": {
     "float": "Chat with us",
-    "inquiryLink": "https://wa.me/237675405348?text=Hello%21%20I%27m%20interested%20in%20AGRODYKE%20organic%20fertilizer."
+    "inquiryLink": "https://wa.me/237674276152?text=Hello%21%20I%27m%20interested%20in%20AGRODYKE%20organic%20fertilizer."
   },
   "checkout": {
     "title": "Checkout",

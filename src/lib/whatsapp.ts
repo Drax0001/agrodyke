@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "237675405348";
+const WHATSAPP_NUMBER = "237674276152";
 
 interface WhatsAppOrderParams {
   items: {

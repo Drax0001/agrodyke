@@ -4,7 +4,7 @@ import { motion, useReducedMotion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import ImagePlaceholder from "@/components/ui/ImagePlaceholder";
 import Container from "@/components/shared/Container";
-import { ANIMATION } from "@/lib/animations";
+import { ANIMATION, TRANSITIONS } from "@/lib/animations";
 
 export default function Hero() {
   const t = useTranslations();
@@ -20,7 +20,7 @@ export default function Hero() {
           className="h-full w-full rounded-none bg-green-900/80 text-green-100"
           label="Hero image"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/20 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-b from-black/60 via-black/20 to-transparent" />
       </div>
 
       <Container className="relative z-10 flex min-h-screen items-center py-24">
@@ -28,7 +28,10 @@ export default function Hero() {
           <motion.span
             initial={{ opacity: 0, y: prefersReducedMotion ? 0 : 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: ANIMATION.duration.slow, ease: ANIMATION.easing.easeOut }}
+            transition={{
+              duration: ANIMATION.duration.slow,
+              ease: ANIMATION.easing.easeOut,
+            }}
             className="inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white"
           >
             🌿 {t("hero.badge")}
@@ -36,7 +39,11 @@ export default function Hero() {
           <motion.h1
             initial={{ opacity: 0, y: prefersReducedMotion ? 0 : 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: ANIMATION.duration.slower, ease: ANIMATION.easing.easeOut, delay: 0.2 }}
+            transition={{
+              duration: ANIMATION.duration.slower,
+              ease: ANIMATION.easing.easeOut,
+              delay: 0.2,
+            }}
             className="text-4xl font-semibold leading-tight md:text-6xl"
           >
             {t("hero.headline")}
@@ -44,7 +51,11 @@ export default function Hero() {
           <motion.p
             initial={{ opacity: 0, y: prefersReducedMotion ? 0 : 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: ANIMATION.duration.slow, ease: ANIMATION.easing.easeOut, delay: 0.6 }}
+            transition={{
+              duration: ANIMATION.duration.slow,
+              ease: ANIMATION.easing.easeOut,
+              delay: 0.6,
+            }}
             className="text-lg text-green-50/90 md:text-xl"
           >
             {t("hero.subheadline")}
@@ -52,7 +63,10 @@ export default function Hero() {
           <motion.div
             initial={{ opacity: 0, scale: prefersReducedMotion ? 1 : 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: ANIMATION.duration.slow, ease: ANIMATION.easing.spring, delay: 1 }}
+            transition={{
+              ...TRANSITIONS.spring,
+              delay: 1,
+            }}
             className="flex flex-wrap items-center gap-4"
           >
             <a

@@ -29,10 +29,16 @@ export default function HowItWorks() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: ANIMATION.duration.slow, ease: ANIMATION.easing.easeOut }}
-              className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
+              className="flex gap-5 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
             >
-              <h3 className="text-lg font-semibold text-green-900">{step.title}</h3>
-              <p className="mt-2 text-sm text-slate-600">{step.description}</p>
+              {/* Step number badge */}
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-green-700 text-sm font-bold text-white">
+                {String(index + 1).padStart(2, "0")}
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-green-900">{step.title}</h3>
+                <p className="mt-2 text-sm text-slate-600">{step.description}</p>
+              </div>
             </motion.div>
           ))}
         </div>

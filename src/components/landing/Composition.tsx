@@ -30,36 +30,35 @@ export default function Composition() {
             }}
             className="overflow-hidden rounded-2xl border border-slate-200 bg-white"
           >
-            <div className="grid grid-cols-2 gap-px bg-slate-200 text-sm">
+            {/* Improved table — divide-y instead of gap-px bg-slate-200 */}
+            <div className="divide-y divide-slate-200 text-sm">
               {rows.map((row) => {
                 const value = row.value.toLowerCase();
                 const isSafe =
                   value.includes("not detected") || value.includes("non détecté");
 
                 return (
-                <motion.div
-                  key={row.label}
-                  variants={{
-                    hidden: { opacity: 0, y: prefersReducedMotion ? 0 : 10 },
-                    show: { opacity: 1, y: 0 }
-                  }}
-                  className={`col-span-2 grid grid-cols-2 gap-px bg-slate-200 ${
-                    isSafe ? "text-green-700" : "text-slate-700"
-                  }`}
-                >
-                  <div className="bg-white px-4 py-3 font-semibold text-slate-700">
-                    {row.label}
-                  </div>
-                  <div className="bg-white px-4 py-3 text-right text-slate-600">
-                    {row.value}
-                    {isSafe ? (
-                      <span className="ml-2 inline-flex items-center gap-1 text-xs font-semibold text-green-700">
-                        ✅ {t("composition.safe")}
-                      </span>
-                    ) : null}
-                  </div>
-                </motion.div>
-              );
+                  <motion.div
+                    key={row.label}
+                    variants={{
+                      hidden: { opacity: 0, y: prefersReducedMotion ? 0 : 10 },
+                      show: { opacity: 1, y: 0 }
+                    }}
+                    className="grid grid-cols-2"
+                  >
+                    <div className="bg-slate-50 px-4 py-3 font-semibold text-slate-700">
+                      {row.label}
+                    </div>
+                    <div className={`px-4 py-3 text-right ${isSafe ? "text-green-700 font-semibold" : "text-slate-600"}`}>
+                      {row.value}
+                      {isSafe ? (
+                        <span className="ml-2 inline-flex items-center gap-1 text-xs font-semibold text-green-700">
+                          ✅ {t("composition.safe")}
+                        </span>
+                      ) : null}
+                    </div>
+                  </motion.div>
+                );
               })}
             </div>
           </motion.div>
