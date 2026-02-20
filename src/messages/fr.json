@@ -533,7 +533,12 @@
         "question": "Comment vous contacter ?",
         "answer": "Utilisez les contacts du site (téléphone, WhatsApp, email)."
       }
-    ]
+    ],
+    "ctaTitle": "Vous avez d'autres questions ?",
+    "ctaSubtitle": "Discutez directement avec nous sur WhatsApp — nous répondons rapidement.",
+    "downloadTitle": "Guide technique",
+    "downloadSubtitle": "Demandez le guide technique complet AGRODYKE avec les tableaux de dosage.",
+    "downloadCTA": "Demander le guide"
   },
   "footer": {
     "tagline": "Technologie organique pour des sols sains et de meilleurs rendements.",

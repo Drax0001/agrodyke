@@ -533,7 +533,12 @@
         "question": "How do I contact you?",
         "answer": "Use the phone numbers, WhatsApp, or email listed in the contact section."
       }
-    ]
+    ],
+    "ctaTitle": "Still have questions?",
+    "ctaSubtitle": "Chat with us directly on WhatsApp — we respond quickly.",
+    "downloadTitle": "Technical Guide",
+    "downloadSubtitle": "Request the full AGRODYKE technical guide with dosage tables.",
+    "downloadCTA": "Request the guide"
   },
   "footer": {
     "tagline": "Organic technology for healthier soils and higher yields.",

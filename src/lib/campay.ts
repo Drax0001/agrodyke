@@ -51,6 +51,14 @@ export async function initiatePayment(params: {
   externalReference: string;
 }) {
   const token = await getAccessToken();
+
+  // Normalize phone number: remove spaces, dashes
+  // Ensure it starts with 237 if it's 9 digits
+  let normalizedFrom = params.from.replace(/\s+|-/g, "");
+  if (normalizedFrom.length === 9) {
+    normalizedFrom = `237${normalizedFrom}`;
+  }
+
   const response = await fetch(`${CAMPAY_BASE_URL}/collect/`, {
     method: "POST",
     headers: {
@@ -60,15 +68,16 @@ export async function initiatePayment(params: {
     body: JSON.stringify({
       amount: params.amount.toString(),
       currency: "XAF",
-      from: params.from,
+      from: normalizedFrom,
       description: params.description,
       external_reference: params.externalReference
+      // operator is NOT sent; CamPay auto-detects from phone prefix
     })
   });
 
   if (!response.ok) {
     const error = await response.json();
-    throw new Error(error.message || "Payment initiation failed");
+    throw new Error(error.message || error.code || "Payment initiation failed");
   }
 
   return response.json();

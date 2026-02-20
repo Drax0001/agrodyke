@@ -6,7 +6,7 @@ import { checkRateLimit, getClientIp } from "@/lib/rateLimit";
 const schema = z.object({
   amount: z.number().positive(),
   phoneNumber: z.string().min(6),
-  operator: z.enum(["MTN", "ORANGE", "WHATSAPP"]),
+  // operator is removed from schema as it is not used
   orderId: z.string().min(3),
   items: z
     .array(
@@ -52,8 +52,20 @@ export async function POST(request: Request) {
       operator: response.operator
     });
   } catch (error) {
+    const message = (error as Error).message || "Payment initiation failed";
+
+    // Surface specific CamPay error codes if present in the message
+    // ER101: Invalid phone number
+    // ER102: Unsupported carrier
+    // ER201: Invalid amount
+    // ER301: Insufficient balance
+    const errorCode = message.match(/(ER\d{3})/)?.[0];
+
     return NextResponse.json(
-      { error: (error as Error).message || "Payment initiation failed" },
+      {
+        error: message,
+        code: errorCode
+      },
       { status: 500 }
     );
   }

@@ -15,24 +15,32 @@ export default function ProgressIndicator({ currentStep }: ProgressIndicatorProp
   ];
 
   return (
-    <div className="flex flex-wrap items-center gap-3 text-xs font-semibold text-slate-600">
+    <div className="flex items-center justify-between sm:justify-start sm:gap-6">
       {steps.map((step, index) => (
-        <div key={step.id} className="flex items-center gap-3">
-          <div
-            className={`flex h-7 w-7 items-center justify-center rounded-full border ${
-              step.id <= currentStep
-                ? "border-green-700 bg-green-700 text-white"
-                : "border-slate-200 bg-white text-slate-500"
-            }`}
-          >
-            {step.id}
+        <div key={step.id} className="flex flex-1 items-center sm:flex-none">
+          <div className="flex items-center gap-2 sm:gap-3">
+            <div
+              className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border text-sm font-bold transition-colors ${step.id <= currentStep
+                  ? "border-green-700 bg-green-700 text-white"
+                  : "border-slate-200 bg-white text-slate-400"
+                }`}
+            >
+              {step.id}
+            </div>
+
+            {/* Short label for mobile, full for desktop if needed */}
+            <span
+              className={`text-xs font-semibold sm:text-sm ${step.id === currentStep ? "text-green-700" : "text-slate-500 hidden sm:block"
+                }`}
+            >
+              {step.label}
+            </span>
           </div>
-          <span className={step.id === currentStep ? "text-green-700" : ""}>
-            {step.label}
-          </span>
-          {index < steps.length - 1 ? (
-            <span className="text-slate-300">—</span>
-          ) : null}
+
+          {/* Connector line */}
+          {index < steps.length - 1 && (
+            <div className="mx-2 h-px flex-1 bg-slate-200 sm:mx-4 sm:w-16 sm:flex-none" />
+          )}
         </div>
       ))}
     </div>

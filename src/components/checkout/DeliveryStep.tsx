@@ -22,6 +22,9 @@ export default function DeliveryStep({
     formState: { errors }
   } = useFormContext<CheckoutFormValues>();
 
+  const inputClass =
+    "w-full rounded-lg border border-slate-200 px-3 py-2 text-sm outline-none transition focus:border-green-500 focus:ring-2 focus:ring-green-500/30";
+
   return (
     <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
       <h2 className="text-lg font-semibold text-slate-900">{t("checkout.step2")}</h2>
@@ -31,7 +34,7 @@ export default function DeliveryStep({
             {t("checkout.delivery.region")}
           </label>
           <select
-            className="w-full rounded-lg border border-slate-200 px-3 py-2 text-sm"
+            className={inputClass}
             {...register("delivery.region")}
           >
             <option value="">{t("checkout.delivery.regionPlaceholder")}</option>
@@ -50,7 +53,7 @@ export default function DeliveryStep({
             {t("checkout.delivery.city")}
           </label>
           <input
-            className="w-full rounded-lg border border-slate-200 px-3 py-2 text-sm"
+            className={inputClass}
             {...register("delivery.city")}
             placeholder={t("checkout.delivery.city")}
           />
@@ -63,7 +66,7 @@ export default function DeliveryStep({
             {t("checkout.delivery.neighborhood")}
           </label>
           <input
-            className="w-full rounded-lg border border-slate-200 px-3 py-2 text-sm"
+            className={inputClass}
             {...register("delivery.neighborhood")}
             placeholder={t("checkout.delivery.neighborhood")}
           />
@@ -78,7 +81,7 @@ export default function DeliveryStep({
             {t("checkout.delivery.address")}
           </label>
           <textarea
-            className="h-24 w-full rounded-lg border border-slate-200 px-3 py-2 text-sm"
+            className={`h-24 ${inputClass}`}
             {...register("delivery.address")}
             placeholder={t("checkout.delivery.address")}
           />
@@ -91,7 +94,7 @@ export default function DeliveryStep({
             {t("checkout.delivery.notes")}
           </label>
           <textarea
-            className="h-20 w-full rounded-lg border border-slate-200 px-3 py-2 text-sm"
+            className={`h-20 ${inputClass}`}
             {...register("delivery.notes")}
             placeholder={t("checkout.delivery.notesPlaceholder")}
           />
@@ -102,12 +105,22 @@ export default function DeliveryStep({
         {t("checkout.delivery.method")}
       </div>
       <div className="mt-2 flex flex-wrap items-center gap-4 text-sm text-slate-600">
-        <label className="flex items-center gap-2">
-          <input type="radio" value="delivery" {...register("delivery.method")} />
+        <label className="flex items-center gap-2 cursor-pointer">
+          <input
+            type="radio"
+            value="delivery"
+            {...register("delivery.method")}
+            className="accent-green-700 w-4 h-4"
+          />
           {t("checkout.delivery.methodDelivery")}
         </label>
-        <label className="flex items-center gap-2">
-          <input type="radio" value="pickup" {...register("delivery.method")} />
+        <label className="flex items-center gap-2 cursor-pointer">
+          <input
+            type="radio"
+            value="pickup"
+            {...register("delivery.method")}
+            className="accent-green-700 w-4 h-4"
+          />
           {t("checkout.delivery.methodPickup")}
         </label>
       </div>
@@ -116,7 +129,7 @@ export default function DeliveryStep({
         <button
           type="button"
           onClick={onBack}
-          className="text-sm font-semibold text-slate-600"
+          className="text-sm font-semibold text-slate-600 transition hover:text-slate-900"
         >
           {t("checkout.actions.backToCustomer")}
         </button>
@@ -124,7 +137,7 @@ export default function DeliveryStep({
           type="button"
           onClick={onNext}
           disabled={isSubmitting}
-          className="rounded-full bg-green-700 px-6 py-3 text-sm font-semibold text-white disabled:opacity-60"
+          className="rounded-full bg-green-700 px-6 py-3 text-sm font-semibold text-white transition hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 disabled:opacity-60"
         >
           {t("checkout.actions.continueToPayment")}
         </button>
